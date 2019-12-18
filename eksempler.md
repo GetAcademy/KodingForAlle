@@ -1,11 +1,11 @@
 ## Forord
 ## Innhold
 ## 1 - HTML
-Eksempel 1 i kapittel "1 - HTML"
+Eksempel 1 i kapittel 1 - HTML
 ```html
 <h1>Min første web-side</h1>
 ```
-Eksempel 2 i kapittel "1 - HTML"
+Eksempel 2 i kapittel 1 - HTML
 ```html
 <!DOCTYPE html>
 <html>
@@ -19,7 +19,7 @@ Eksempel 2 i kapittel "1 - HTML"
 </body>
 </html>
 ```
-Eksempel 3 i kapittel "1 - HTML"
+Eksempel 3 i kapittel 1 - HTML
 ```html
 ☰ Vinlotterix<br/>
 <input type="checkbox"/> Personer + ✎<br/>
@@ -31,14 +31,14 @@ Eksempel 3 i kapittel "1 - HTML"
 <button>▲</button>
 <button>▼</button>
 ```
-Eksempel 4 i kapittel "1 - HTML"
+Eksempel 4 i kapittel 1 - HTML
 ```html
 ☰ Vinlotterix<br/>
 <small>onsdag 17.10.18</small><br/>
 <b>Vinneren er Ole!</b><br/>
 <small>Trukket fra totalt 3 personer: Per, Pål og Ole</small>
 ```
-Eksempel 5 i kapittel "1 - HTML"
+Eksempel 5 i kapittel 1 - HTML
 ```html
 <table><tr><td>
 <button>Personer</button><br/>
@@ -53,7 +53,7 @@ Eksempel 5 i kapittel "1 - HTML"
 </td></tr></table>
 ```
 ## 2 - CSS
-Eksempel 1 i kapittel "2 - CSS"
+Eksempel 1 i kapittel 2 - CSS
 ```html
 <!DOCTYPE html>
 <html>
@@ -89,7 +89,7 @@ Eksempel 1 i kapittel "2 - CSS"
 </body>
 </html>
 ```
-Eksempel 2 i kapittel "2 - CSS"
+Eksempel 2 i kapittel 2 - CSS
 ```html
 <head>
     <title>Arkfaneoverskrift</title>
@@ -117,25 +117,25 @@ Eksempel 2 i kapittel "2 - CSS"
     <div>C</div>
 </body>
 ```
-Eksempel 3 i kapittel "2 - CSS"
+Eksempel 3 i kapittel 2 - CSS
 ```css
 div.specialEffect {
   border: 4px dashed orange;
   padding: 5px;
 }
 ```
-Eksempel 4 i kapittel "2 - CSS"
+Eksempel 4 i kapittel 2 - CSS
 ```html
 <div>A</div>
 <div class="specialEffect">B</div>
 <div>C</div>
 ```
-Eksempel 5 i kapittel "2 - CSS"
+Eksempel 5 i kapittel 2 - CSS
 ```html
 <div class="specialEffect">B</div>
 ``` 
 ## Vinlotterix - Prototyping 2 - CSS
-Eksempel 1 i kapittel "Vinlotterix - Prototyping 2 - CSS"
+Eksempel 1 i kapittel Vinlotterix - Prototyping 2 - CSS
 ```html
 <div class="screen">
     <span>☰ Vinlotterix 🍷</span><br />
@@ -174,7 +174,7 @@ Eksempel 1 i kapittel "Vinlotterix - Prototyping 2 - CSS"
     </div>
 </div>
 ```
-Eksempel 2 i kapittel "Vinlotterix - Prototyping 2 - CSS"
+Eksempel 2 i kapittel Vinlotterix - Prototyping 2 - CSS
 ```css
 div.menu {
     float: left;
@@ -209,7 +209,7 @@ button {
     }
 ```
 ## CSS - fullskjermslayout ved hjelp av CSS Grid
-Eksempel 1 i kapittel "CSS - fullskjermslayout ved hjelp av CSS Grid"
+Eksempel 1 i kapittel CSS - fullskjermslayout ved hjelp av CSS Grid
 ```html
 <body>
     <div class="page"        style="background-color: lightblue">
@@ -220,17 +220,17 @@ Eksempel 1 i kapittel "CSS - fullskjermslayout ved hjelp av CSS Grid"
     </div>
 </body>
 ```
-Eksempel 2 i kapittel "CSS - fullskjermslayout ved hjelp av CSS Grid"
+Eksempel 2 i kapittel CSS - fullskjermslayout ved hjelp av CSS Grid
 ```html
 <div class="page" style="display: grid; background-color: lightblue">
 ```
-Eksempel 3 i kapittel "CSS - fullskjermslayout ved hjelp av CSS Grid"
+Eksempel 3 i kapittel CSS - fullskjermslayout ved hjelp av CSS Grid
 ```css
 div.page {
     display: grid;
 }
 ```
-Eksempel 4 i kapittel "CSS - fullskjermslayout ved hjelp av CSS Grid"
+Eksempel 4 i kapittel CSS - fullskjermslayout ved hjelp av CSS Grid
 ```css
 div.page {
     height: 100vh;
@@ -238,7 +238,7 @@ div.page {
     grid-template-columns: 2fr 1fr 3fr;
 }
 ```
-Eksempel 5 i kapittel "CSS - fullskjermslayout ved hjelp av CSS Grid"
+Eksempel 5 i kapittel CSS - fullskjermslayout ved hjelp av CSS Grid
 ```css
 div.page {
     display: grid;
@@ -267,7 +267,7 @@ div.footer {
 }
 ```
 ## Vinlotterix - prototyping 3 - CSS Grid
-Eksempel 1 i kapittel "Vinlotterix - prototyping 3 - CSS Grid"
+Eksempel 1 i kapittel Vinlotterix - prototyping 3 - CSS Grid
 ```css
 div.page {
     display: grid;
@@ -278,12 +278,12 @@ div.page {
                          'meny innhold';
 }
 ```
-Eksempel 2 i kapittel "Vinlotterix - prototyping 3 - CSS Grid"
+Eksempel 2 i kapittel Vinlotterix - prototyping 3 - CSS Grid
 ```css
     grid-template-areas: 'header header' 
                          'innhold innhold';
 ```
-Eksempel 3 i kapittel "Vinlotterix - prototyping 3 - CSS Grid"
+Eksempel 3 i kapittel Vinlotterix - prototyping 3 - CSS Grid
 ```css
 div.page {
     display: grid;
@@ -295,7 +295,7 @@ div.page {
 }
 ```
 ## Responsivt webdesign
-Eksempel 1 i kapittel "Responsivt webdesign"
+Eksempel 1 i kapittel Responsivt webdesign
 ```css
 @media only screen and (max-width: 600px) {
     div.page {
@@ -309,7 +309,7 @@ Eksempel 1 i kapittel "Responsivt webdesign"
 }
 ```
 ## 3 - Å publisere det man har laget
-Eksempel 1 i kapittel "3 - Å publisere det man har laget"
+Eksempel 1 i kapittel 3 - Å publisere det man har laget
 ```html
 <!DOCTYPE html>
 <html>
@@ -334,23 +334,23 @@ Eksempel 1 i kapittel "3 - Å publisere det man har laget"
 </html>
 ```
 ## 4 - Grunnferdigheter i Javascript
-Eksempel 1 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 1 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <script>
     alert('Hei på deg!');
 </script>
 ```
-Eksempel 2 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 2 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <h1 onclick="alert('Takk :-)');">Trykk på meg!</h1>
 ``` 
-Eksempel 3 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 3 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 alert('Hei');
 alert('på');
 alert('deg!');
 ```
-Eksempel 4 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 4 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 function heiPåDeg() {
     alert('Hei');
@@ -358,7 +358,7 @@ function heiPåDeg() {
     alert('deg!');
 }
 ```
-Eksempel 5 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 5 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <h1 id="overskrift" onclick="endreTekst()">Trykk på meg!</h1>
 <script>
@@ -367,7 +367,7 @@ Eksempel 5 i kapittel "4 - Grunnferdigheter i Javascript"
     }
 </script>
 ```
-Eksempel 6 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 6 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <h1 onclick="endreTekst()">Trykk på meg for å endre overskriften under!</h1>
 <h1 id="overskrift" >Trykk på overskriften over for å endre meg!</h1>
@@ -377,7 +377,7 @@ Eksempel 6 i kapittel "4 - Grunnferdigheter i Javascript"
     }
 </script>
 ```
-Eksempel 7 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 7 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <b id="overskrift" onclick="endreTekst()">Trykk for prikker:</b>
 <script>
@@ -386,36 +386,36 @@ Eksempel 7 i kapittel "4 - Grunnferdigheter i Javascript"
     }
 </script>
 ```
-Eksempel 8 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 8 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <div id="minDiv" style="background-color: red;">Hei</div>
 ```
-Eksempel 9 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 9 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 document.getElementById('minDiv').style.backgroundColor = 'red';
 ```
-Eksempel 10 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 10 i kapittel 4 - Grunnferdigheter i Javascript
 ```css
 div.rødOgFin {
     background-color: red;
 }
 ```
-Eksempel 11 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 11 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 document.getElementById('minDiv').classList.add('rødOgFin');
 ```
-Eksempel 12 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 12 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 document.getElementById('minDiv').classList.remove('rødOgFin');
 ```
-Eksempel 13 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 13 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <div id="innhold">
     Jeg tenker på et tall mellom 1 og 20. Tipp hvilket!<br />
     <input type="text" /> <button onclick="tipp1()">Tipp</button>
 </div>
 ```
-Eksempel 14 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 14 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 function tipp1() {
     document.getElementById('innhold').innerHTML = `
@@ -424,7 +424,7 @@ function tipp1() {
             `;
 }
 ```
-Eksempel 15 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 15 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 function tipp2() {
     document.getElementById('innhold').innerHTML = `
@@ -433,7 +433,7 @@ function tipp2() {
             `;
 }
 ```
-Eksempel 16 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 16 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <div class="page" id="page">
     <div class="header" id="header">
@@ -449,19 +449,19 @@ Eksempel 16 i kapittel "4 - Grunnferdigheter i Javascript"
     </div>
 </div>
 ```
-Eksempel 17 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 17 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 function visOgSkjulMeny() {
     document.getElementById('page').classList.toggle('pageUtenMeny');
 }
 ```
-Eksempel 18 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 18 i kapittel 4 - Grunnferdigheter i Javascript
 ```css
 div.pageUtenMeny {
     grid-template-columns: 0px 2fr;
 }
 ```
-Eksempel 19 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 19 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 function visPersoner() {
     document.getElementById('innhold').innerHTML = `
@@ -488,17 +488,17 @@ function visVinnere1() {
         `;
 }
 ```
-Eksempel 20 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 20 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <button onclick="alert(this.innerHTML)">Hei!</button>
 <button onclick="alert(this.innerHTML)">Hallo!</button>
 ```
-Eksempel 21 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 21 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <button onclick="this.innerHTML = 'x'">Hei!</button>
 <button onclick="this.innerHTML = 'x'">Hallo!</button>
 ```
-Eksempel 22 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 22 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <h1 onclick="trykk(this)">Trykk!</h1>
 <h1 onclick="trykk(this)">Trykk!</h1>
@@ -508,7 +508,7 @@ Eksempel 22 i kapittel "4 - Grunnferdigheter i Javascript"
     }
 </script>
 ```
-Eksempel 23 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 23 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <h1 onclick="trykk()">Trykk!</h1>
 <h1 id="o">Trykk!</h1>
@@ -520,39 +520,39 @@ Eksempel 23 i kapittel "4 - Grunnferdigheter i Javascript"
     }
 </script>
 ```
-Eksempel 24 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 24 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 document.getElementById('o').innerHTML = 'x';
 ```
-Eksempel 25 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 25 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 alert('Hei' + 'på' + 'deg!');
 ```
-Eksempel 26 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 26 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <button onclick="alert('Hei, ' + this.innerHTML + '!')">Per</button>
 <button onclick="alert('Hei, ' + this.innerHTML + '!')">Pål</button>
 <button onclick="alert('Hei, ' + this.innerHTML + '!')">Espen</button>
 ```
-Eksempel 27 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 27 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = 'Hei, ' + navn + '. Hvordan står det til i ' + sted + '?';
 ```
-Eksempel 28 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 28 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = `Hei, ${navn}. Hvordan står det til i ${sted}?`;
 ```
-Eksempel 29 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 29 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = `Hei, ${navn}. 
              Hvordan står det til i ${sted}?`;
 ```
-Eksempel 30 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 30 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = 'Hei, ' + navn + '.' 
           + 'Hvordan står det til i ' + sted + '?';
 ```
-Eksempel 31 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 31 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <script>
     console.log('Hei');
@@ -560,11 +560,11 @@ Eksempel 31 i kapittel "4 - Grunnferdigheter i Javascript"
     console.log('deg!');
 </script>
 ```
-Eksempel 32 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 32 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var navnFraSkjema = document.getElementById('navn').value;
 ```
-Eksempel 33 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 33 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var minDiv = document.getElementById('minDiv');
 minDiv.style.backgroundColor = '#4567ab';
@@ -574,22 +574,22 @@ minDiv.classList.add('active');
 minDiv.classList.remove('old');
 minDiv.classList.toggle('something');
 ```
-Eksempel 34 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 34 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <div class="something old"></div>
 ```
-Eksempel 35 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 35 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <div class="active"></div>
 ```
-Eksempel 36 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 36 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <input type="text"
        onclick="console.log('onclick ' + this.value)"
        oninput="console.log('oninput ' + this.value)"
        onchange="console.log('onchange ' + this.value)"/>
 ```
-Eksempel 37 i kapittel "4 - Grunnferdigheter i Javascript"
+Eksempel 37 i kapittel 4 - Grunnferdigheter i Javascript
 ```
 onclick 
 oninput h
@@ -598,24 +598,24 @@ oninput hei
 onchange hei
 ```
 ## 5 - Variabler
-Eksempel 1 i kapittel "5 - Variabler"
+Eksempel 1 i kapittel 5 - Variabler
 ```js
 var teller;
 ```
-Eksempel 2 i kapittel "5 - Variabler"
+Eksempel 2 i kapittel 5 - Variabler
 ```js
 teller = 0;
 ```
-Eksempel 3 i kapittel "5 - Variabler"
+Eksempel 3 i kapittel 5 - Variabler
 ```js
 var tall = 123;
 ```
-Eksempel 4 i kapittel "5 - Variabler"
+Eksempel 4 i kapittel 5 - Variabler
 ```js
 a = 5;
 b = a;
 ```
-Eksempel 5 i kapittel "5 - Variabler"
+Eksempel 5 i kapittel 5 - Variabler
 ```js
 a = 5;
 b = a;
@@ -623,40 +623,40 @@ a = 6;
 a = 7;
 a = 8;
 ```
-Eksempel 6 i kapittel "5 - Variabler"
+Eksempel 6 i kapittel 5 - Variabler
 ```js
 var navn = 'Terje';
 ```
-Eksempel 7 i kapittel "5 - Variabler"
+Eksempel 7 i kapittel 5 - Variabler
 ```js
 var navn = Terje;
 ```
-Eksempel 8 i kapittel "5 - Variabler"
+Eksempel 8 i kapittel 5 - Variabler
 ```js
 var tekst = 'Hei' + ' på ' + 'deg!';
 console.log(tekst);
 ```
-Eksempel 9 i kapittel "5 - Variabler"
+Eksempel 9 i kapittel 5 - Variabler
 ```js
 var divHtml = document.getElementById('div5').innerHTML;
 ```
-Eksempel 10 i kapittel "5 - Variabler"
+Eksempel 10 i kapittel 5 - Variabler
 ```js
 document.getElementById('mainContent').innerHTML = 'B!';
 ``` 
-Eksempel 11 i kapittel "5 - Variabler"
+Eksempel 11 i kapittel 5 - Variabler
 ```js
 var mainContentDiv = document.getElementById('mainContent');
 mainContentDiv.innerHTML = 'B!';
 ``` 
-Eksempel 12 i kapittel "5 - Variabler"
+Eksempel 12 i kapittel 5 - Variabler
 ```js
 var contentTmp = document.getElementById('divA').innerHTML;
 document.getElementById('divA').innerHTML = 
     document.getElementById('divB').innerHTML;
 document.getElementById('divB').innerHTML = contentTmp;
 ```
-Eksempel 13 i kapittel "5 - Variabler"
+Eksempel 13 i kapittel 5 - Variabler
 ```js
 var divA = document.getElementById('divA');
 var divB = document.getElementById('divB');
@@ -664,12 +664,12 @@ var contentTmp = divA.innerHTML;
 divA.innerHTML = divB.innerHTML;
 divB.innerHTML = contentTmp;
 ```
-Eksempel 14 i kapittel "5 - Variabler"
+Eksempel 14 i kapittel 5 - Variabler
 ```html
 <div id="content">Hallo!</div>
 <button onclick="wrap()">Wrap!</button>
 ```
-Eksempel 15 i kapittel "5 - Variabler"
+Eksempel 15 i kapittel 5 - Variabler
 ```js
 function wrap() {
     var contentDiv = document.getElementById('content');
@@ -678,7 +678,7 @@ function wrap() {
         + innhold + '</li></ul>';
 }
 ```
-Eksempel 16 i kapittel "5 - Variabler"
+Eksempel 16 i kapittel 5 - Variabler
 ```js
 function wrap() {
     var contentDiv = document.getElementById('content');
@@ -690,7 +690,7 @@ function wrap() {
         </ul>`;
 }
 ```
-Eksempel 17 i kapittel "5 - Variabler"
+Eksempel 17 i kapittel 5 - Variabler
 ```js
 var antallKlikk = 0;
 
@@ -699,19 +699,19 @@ function tell() {
     console.log(antallKlikk);
 }
 ```
-Eksempel 18 i kapittel "5 - Variabler"
+Eksempel 18 i kapittel 5 - Variabler
 ```html
 <button onclick="merk(this)">A</button>
 <button onclick="merk(this)">B</button>
 <button onclick="merk(this)">C</button>
 ```
-Eksempel 19 i kapittel "5 - Variabler"
+Eksempel 19 i kapittel 5 - Variabler
 ```js
 function merk(element){
   element.style.border = 'dashed orange 2px';
 }
 ```
-Eksempel 20 i kapittel "5 - Variabler"
+Eksempel 20 i kapittel 5 - Variabler
 ```js
 var forrigeElement;
 
@@ -721,13 +721,13 @@ function merk(element){
   forrigeElement = element;
 }
 ```
-Eksempel 21 i kapittel "5 - Variabler"
+Eksempel 21 i kapittel 5 - Variabler
 ```html
 <button id="knappA" onclick="merk(this)">A</button>
 <button onclick="merk(this)">B</button>
 <button onclick="merk(this)">C</button>
 ```
-Eksempel 22 i kapittel "5 - Variabler"
+Eksempel 22 i kapittel 5 - Variabler
 ```js
 var forrigeElement = document.getElementById('knappA');
 
@@ -737,7 +737,7 @@ function merk(element){
   forrigeElement = element;
 }
 ```
-Eksempel 23 i kapittel "5 - Variabler"
+Eksempel 23 i kapittel 5 - Variabler
 ```js
 var tekstA = '5';
 var tekstB = '7';
@@ -745,7 +745,7 @@ var tallA = parseInt(tekstA);
 var tallB = parseInt(tekstB);
 var x = tallA + tallB; 
 ```
-Eksempel 24 i kapittel "5 - Variabler"
+Eksempel 24 i kapittel 5 - Variabler
 ```html
 <input id="tallA" type="range" min="1" max="100" step="1" value="2" 
        oninput="calculate()" />
@@ -772,7 +772,7 @@ Eksempel 24 i kapittel "5 - Variabler"
     }
 </script>
 ```
-Eksempel 25 i kapittel "5 - Variabler"
+Eksempel 25 i kapittel 5 - Variabler
 ```js
 var resultatDiv = document.getElementById('resultat');
 calculate();
@@ -791,7 +791,7 @@ function calculate() {
 }
 ```
 ## 6 - Valgsetninger
-Eksempel 1 i kapittel "6 - Valgsetninger"
+Eksempel 1 i kapittel 6 - Valgsetninger
 ```html
 <button onclick="tell()">Tell</button>
 <div id="info"></div>
@@ -805,14 +805,14 @@ function tell() {
 }
 </script>
 ```
-Eksempel 2 i kapittel "6 - Valgsetninger"
+Eksempel 2 i kapittel 6 - Valgsetninger
 ```js
 antallKlikk++;
 if( antallKlikk == 10 ) {
     infoDiv.innerHTML = 'Du har klikket 10 ganger.';
 }
 ```
-Eksempel 3 i kapittel "6 - Valgsetninger"
+Eksempel 3 i kapittel 6 - Valgsetninger
 ```js
 antallKlikk++;
 if( antallKlikk == 10 ) {
@@ -821,7 +821,7 @@ if( antallKlikk == 10 ) {
     infoDiv.innerHTML = '';
 }
 ```
-Eksempel 4 i kapittel "6 - Valgsetninger"
+Eksempel 4 i kapittel 6 - Valgsetninger
 ```js
 antallKlikk++;
 infoDiv.innerHTML = '';
@@ -829,7 +829,7 @@ if( antallKlikk == 10 ) {
     infoDiv.innerHTML = 'Du har klikket 10 ganger.';
 }
 ```
-Eksempel 5 i kapittel "6 - Valgsetninger"
+Eksempel 5 i kapittel 6 - Valgsetninger
 ```js
 antallKlikk++;
 if( antallKlikk < 10 ) {
@@ -838,7 +838,7 @@ if( antallKlikk < 10 ) {
     infoDiv.innerHTML = 'Du har klikket 10 ganger eller mer.';
 }
 ```
-Eksempel 6 i kapittel "6 - Valgsetninger"
+Eksempel 6 i kapittel 6 - Valgsetninger
 ```js
 antallKlikk++;
 if( antallKlikk >= 10 ) {
@@ -847,7 +847,7 @@ if( antallKlikk >= 10 ) {
     infoDiv.innerHTML = 'Du har klikket 9 ganger eller mindre.';
 }
 ```
-Eksempel 7 i kapittel "6 - Valgsetninger"
+Eksempel 7 i kapittel 6 - Valgsetninger
 ```js
 var månedsnavn;
 if (måned == 1) {
@@ -878,7 +878,7 @@ if (måned == 1) {
     månedsnavn = '<ukjent månedsnummer ' + måned + '>';
 }
 ```
-Eksempel 8 i kapittel "6 - Valgsetninger"
+Eksempel 8 i kapittel 6 - Valgsetninger
 ```js
 if (måned == 1) månedsnavn = 'Januar';
 else if (måned == 2) månedsnavn = 'Februar';
@@ -894,13 +894,13 @@ else if (måned == 11) månedsnavn = 'November';
 else if (måned == 12) månedsnavn = 'Desember';
 else månedsnavn = '<ukjent månedsnummer ' + måned + '>';
 ```
-Eksempel 9 i kapittel "6 - Valgsetninger"
+Eksempel 9 i kapittel 6 - Valgsetninger
 ```js
 if(a == 1) x = 10;
 else x = 20;
      y = 5;
 ```
-Eksempel 10 i kapittel "6 - Valgsetninger"
+Eksempel 10 i kapittel 6 - Valgsetninger
 ```js
 if(a == 1) {
     x = 10;
@@ -909,13 +909,13 @@ if(a == 1) {
     y = 5;
 }
 ```
-Eksempel 11 i kapittel "6 - Valgsetninger"
+Eksempel 11 i kapittel 6 - Valgsetninger
 ```js
 if( navn == 'Terje' ) {
     alert('Terje, jo!');
 }
 ```
-Eksempel 12 i kapittel "6 - Valgsetninger"
+Eksempel 12 i kapittel 6 - Valgsetninger
 ```html
 <div id="info"></div>
 <p>Endre på tekstene! (Prøv også å fylle ut tall: 11, 101, 102)</p>
@@ -956,26 +956,26 @@ Eksempel 12 i kapittel "6 - Valgsetninger"
     }
 </script>
 ```
-Eksempel 13 i kapittel "6 - Valgsetninger"
+Eksempel 13 i kapittel 6 - Valgsetninger
 ```js
 if (txt1 == txt2) html += 'Tekst 1 og 2 er like<br/>';
 if (txt1 != txt2) html += '<del>Tekst 1 og 2 er like</del><br/>';
 ```
-Eksempel 14 i kapittel "6 - Valgsetninger"
+Eksempel 14 i kapittel 6 - Valgsetninger
 ```js
 if (txt1 == txt2) html += 'Tekst 1 og 2 er like<br/>';
 else html += '<del>Tekst 1 og 2 er like</del><br/>';
 ```
-Eksempel 15 i kapittel "6 - Valgsetninger"
+Eksempel 15 i kapittel 6 - Valgsetninger
 ```js
 document.getElementById('abc').innerHTML = '<h1>Overskrift</h1>';
 ```
-Eksempel 16 i kapittel "6 - Valgsetninger"
+Eksempel 16 i kapittel 6 - Valgsetninger
 ```js
 var abcDiv = document.getElementById('abc');
 abcDiv.innerHTML = '<h1>Overskrift</h1>';
 ```
-Eksempel 17 i kapittel "6 - Valgsetninger"
+Eksempel 17 i kapittel 6 - Valgsetninger
 ```js
 var div1 = document.getElementById('aaa');
 var div2 = document.getElementById('bbb');
@@ -983,7 +983,7 @@ if( div1 == div2 ) {
     ...
 }
 ```
-Eksempel 18 i kapittel "6 - Valgsetninger"
+Eksempel 18 i kapittel 6 - Valgsetninger
 ```js
 var div1 = document.getElementById('aaa');
 var div2 = document.getElementById('aaa');
@@ -991,7 +991,7 @@ if( div1 == div2 ) {
     ...
 }
 ```
-Eksempel 19 i kapittel "6 - Valgsetninger"
+Eksempel 19 i kapittel 6 - Valgsetninger
 ```html
 <div id="a" onclick="velg(this)">A</div>
 <div id="b" onclick="velg(this)">B</div>
@@ -1018,7 +1018,7 @@ Eksempel 19 i kapittel "6 - Valgsetninger"
     }
 </script>
 ```
-Eksempel 20 i kapittel "6 - Valgsetninger"
+Eksempel 20 i kapittel 6 - Valgsetninger
 ```js
 if (txt1 <= txt2) {
     if (txt3 <= txt1) html += txt3;
@@ -1028,7 +1028,7 @@ if (txt1 <= txt2) {
     else html += txt2;
 }
 ```
-Eksempel 21 i kapittel "6 - Valgsetninger"
+Eksempel 21 i kapittel 6 - Valgsetninger
 ```js
 if( betingelse1 ) {
     if( betingelse2 ) {
@@ -1036,42 +1036,42 @@ if( betingelse1 ) {
     }
 }
 ```
-Eksempel 22 i kapittel "6 - Valgsetninger"
+Eksempel 22 i kapittel 6 - Valgsetninger
 ```js
 if( betingelse1 & betingelse2 ) {
     ...
 }
 ```
-Eksempel 23 i kapittel "6 - Valgsetninger"
+Eksempel 23 i kapittel 6 - Valgsetninger
 ```js
 if (txt1 <= txt2 & txt1 <= txt3) html += txt1;
 else if (txt2 <= txt1 & txt2 <= txt3) html += txt2;
 else html += txt3;
 ```
-Eksempel 24 i kapittel "6 - Valgsetninger"
+Eksempel 24 i kapittel 6 - Valgsetninger
 ```js
 if (txt1 <= txt2 & txt1 <= txt3) html += txt1;
 else if (txt2 <= txt3) html += txt2;
 else html += txt3;
 ```
-Eksempel 25 i kapittel "6 - Valgsetninger"
+Eksempel 25 i kapittel 6 - Valgsetninger
 ```js
 if( txt != undefined & txt.length == 10 )
 ```  
-Eksempel 26 i kapittel "6 - Valgsetninger"
+Eksempel 26 i kapittel 6 - Valgsetninger
 ```js
 if( txt != undefined && txt.length == 10 )
 ```  
-Eksempel 27 i kapittel "6 - Valgsetninger"
+Eksempel 27 i kapittel 6 - Valgsetninger
 ```
 <br/>A <input type="checkbox"/>
 <br/>B <input type="checkbox" checked="checked"/>
 ```
-Eksempel 28 i kapittel "6 - Valgsetninger"
+Eksempel 28 i kapittel 6 - Valgsetninger
 ```js
 var erValgt = document.getElementById('chk1').checked;
 ```
-Eksempel 29 i kapittel "6 - Valgsetninger"
+Eksempel 29 i kapittel 6 - Valgsetninger
 ```js
 <div id="info"></div>
 <input id="a" type="checkbox" onchange="info()" />Checkbox A<br />
@@ -1097,44 +1097,44 @@ Eksempel 29 i kapittel "6 - Valgsetninger"
     }
 </script>
 ```
-Eksempel 30 i kapittel "6 - Valgsetninger"
+Eksempel 30 i kapittel 6 - Valgsetninger
 ```js
 var erValgt = document.getElementById('chk1').checked;
 if( erValgt ) {
     ...
 }
 ```
-Eksempel 31 i kapittel "6 - Valgsetninger"
+Eksempel 31 i kapittel 6 - Valgsetninger
 ```js
 if( document.getElementById('chk1').checked ) {
     ...
 }
 ```
-Eksempel 32 i kapittel "6 - Valgsetninger"
+Eksempel 32 i kapittel 6 - Valgsetninger
 ```js
 if( n < 10 ) {
     ...
 }
 ```
-Eksempel 33 i kapittel "6 - Valgsetninger"
+Eksempel 33 i kapittel 6 - Valgsetninger
 ```js
 var verdienErRiktig = n < 10;
 if( verdienErRiktig ) {
     ...
 }
 ```
-Eksempel 34 i kapittel "6 - Valgsetninger"
+Eksempel 34 i kapittel 6 - Valgsetninger
 ```js
 var a = true;
 var b = false;
 ```
-Eksempel 35 i kapittel "6 - Valgsetninger"
+Eksempel 35 i kapittel 6 - Valgsetninger
 ```js
 if( !document.getElementById('chk1').checked ) {
     ...
 }
 ```
-Eksempel 36 i kapittel "6 - Valgsetninger"
+Eksempel 36 i kapittel 6 - Valgsetninger
 ```html
 <h3>Pizza-bestilling</h3>
 <div id="info" >Gjør ett valg på hver linje:</div>
@@ -1152,7 +1152,7 @@ Størrelse: <input id="stor" type="radio" name="str" />Stor
 
 <button id="bestill" onclick="bestill()">Bestill</button>
 ```
-Eksempel 37 i kapittel "6 - Valgsetninger"
+Eksempel 37 i kapittel 6 - Valgsetninger
 ```js
 var btnBestill = document.getElementById('bestill');
 var infoDiv = document.getElementById('info');
@@ -1165,7 +1165,7 @@ var strStor = document.getElementById('stor');
 var strMiddels = document.getElementById('middels');
 var strLiten = document.getElementById('liten');
 ```
-Eksempel 38 i kapittel "6 - Valgsetninger"
+Eksempel 38 i kapittel 6 - Valgsetninger
 ```js
 if ((bunnTykk.checked || bunnTynn.checked) &&
     (fyllTaco.checked || fyllKylling.checked || fyllPepperoni.checked) &&
@@ -1173,13 +1173,13 @@ if ((bunnTykk.checked || bunnTynn.checked) &&
     infoDiv.innerHTML = 'Du har fylt ut alt og er klar til å bestille!';
 } 
 ```
-Eksempel 39 i kapittel "6 - Valgsetninger"
+Eksempel 39 i kapittel 6 - Valgsetninger
 ```js
 if ( bunnTykk.checked || bunnTynn.checked &&
      fyllTaco.checked || fyllKylling.checked || fyllPepperoni.checked &&
      strStor.checked || strMiddels.checked || strLiten.checked ) 
 ```
-Eksempel 40 i kapittel "6 - Valgsetninger"
+Eksempel 40 i kapittel 6 - Valgsetninger
 ```js
 if ( bunnTykk.checked 
     || bunnTynn.checked && fyllTaco.checked 
@@ -1188,7 +1188,7 @@ if ( bunnTykk.checked
     || strMiddels.checked 
     || strLiten.checked ) 
 ```
-Eksempel 41 i kapittel "6 - Valgsetninger"
+Eksempel 41 i kapittel 6 - Valgsetninger
 ```js
 else {
     infoDiv.innerHTML = 'Du har ikke valgt:';
@@ -1205,7 +1205,7 @@ else {
 }
 ```
 ## 7 - Funksjoner
-Eksempel 1 i kapittel "7 - Funksjoner"
+Eksempel 1 i kapittel 7 - Funksjoner
 ```js
 var popupDiv = document.getElementById('popup');
 
@@ -1217,27 +1217,27 @@ function skulPopup() {
     popupDiv.innerHTML = '';
 }
 ```
-Eksempel 2 i kapittel "7 - Funksjoner"
+Eksempel 2 i kapittel 7 - Funksjoner
 ```js
 function visPopup( tekst ) {
     popupDiv.innerHTML = tekst + '<br/><button onclick="lukkPopup()">Ok</button>';
 }
 ```
-Eksempel 3 i kapittel "7 - Funksjoner"
+Eksempel 3 i kapittel 7 - Funksjoner
 ```js
 function visLagretPopup() {
     visPopup( 'Endringen er lagret.' );
 }
 ```
-Eksempel 4 i kapittel "7 - Funksjoner"
+Eksempel 4 i kapittel 7 - Funksjoner
 ```html
 <button onclick="lukkPopup()">Ok</button>'
 ```
-Eksempel 5 i kapittel "7 - Funksjoner"
+Eksempel 5 i kapittel 7 - Funksjoner
 ```html
 <button onclick="visPopup()">Ok</button>'
 ```
-Eksempel 6 i kapittel "7 - Funksjoner"
+Eksempel 6 i kapittel 7 - Funksjoner
 ```js
 function visPopup( tekst ) {
     if( tekst ) {
@@ -1247,26 +1247,26 @@ function visPopup( tekst ) {
     }
 }
 ```
-Eksempel 7 i kapittel "7 - Funksjoner"
+Eksempel 7 i kapittel 7 - Funksjoner
 ```js
 function visPopup( tekst ) {
     popupDiv.innerHTML = tekst ? tekst + '<br/><button onclick="lukkPopup()">Ok</button>' : '';
 }
 ```
-Eksempel 8 i kapittel "7 - Funksjoner"
+Eksempel 8 i kapittel 7 - Funksjoner
 ```js
 popupDiv.innerHTML = !tekst ? '' : tekst + '<br/><button onclick="lukkPopup()">Ok</button>';
 ```
-Eksempel 9 i kapittel "7 - Funksjoner"
+Eksempel 9 i kapittel 7 - Funksjoner
 ```js
 var tilfeldigTerningVerdi = Math.ceil( Math.random() * 6 );
 ```
-Eksempel 10 i kapittel "7 - Funksjoner"
+Eksempel 10 i kapittel 7 - Funksjoner
 ```js
 var tilfeldigTerningVerdi1 = Math.ceil( Math.random() * 6 );
 var tilfeldigTerningVerdi2 = Math.ceil( Math.random() * 6 );
 ```
-Eksempel 11 i kapittel "7 - Funksjoner"
+Eksempel 11 i kapittel 7 - Funksjoner
 ```js
 function lagTilfeldigTerningverdi() {
     return Math.ceil( Math.random() * 6 ); 
@@ -1275,20 +1275,20 @@ function lagTilfeldigTerningverdi() {
 var tilfeldigTerningVerdi1 = lagTilfeldigTerningverdi();
 var tilfeldigTerningVerdi2 = lagTilfeldigTerningverdi();
 ```
-Eksempel 12 i kapittel "7 - Funksjoner"
+Eksempel 12 i kapittel 7 - Funksjoner
 ```js
 function bestill( antallBilletter ) {
     if( antallBilletter < 1 | antallBilletter > 6 ) return;
     // fortsett med å gjennomføre bestillingen her
 }
 ```
-Eksempel 13 i kapittel "7 - Funksjoner"
+Eksempel 13 i kapittel 7 - Funksjoner
 ```js
 function tilfeldigTall(minimum, maksimum) {
     return minimum + Math.floor(Math.random() * (maksimum - minimum + 1));
 }
 ```
-Eksempel 14 i kapittel "7 - Funksjoner"
+Eksempel 14 i kapittel 7 - Funksjoner
 ```js
 function tilfeldigTallEllerBokstavABCDEF() {
     var tall = tilfeldigTall(0, 15);
@@ -1301,7 +1301,7 @@ function tilfeldigTallEllerBokstavABCDEF() {
     else return 'f';
 }
 ```
-Eksempel 15 i kapittel "7 - Funksjoner"
+Eksempel 15 i kapittel 7 - Funksjoner
 ```js
 function tilfeldigTallEllerBokstavABCDEF() {
     var tall = tilfeldigTall(0, 15);
@@ -1310,7 +1310,7 @@ function tilfeldigTallEllerBokstavABCDEF() {
     return String.fromCharCode(tall - 10 + charCodeA);
 }
 ```
-Eksempel 16 i kapittel "7 - Funksjoner"
+Eksempel 16 i kapittel 7 - Funksjoner
 ```js
 function tilfeldigFarge() {
     return '#' +
@@ -1322,17 +1322,17 @@ function tilfeldigFarge() {
         tilfeldigTallEllerBokstavABCDEF();
 }
 ```
-Eksempel 17 i kapittel "7 - Funksjoner"
+Eksempel 17 i kapittel 7 - Funksjoner
 ```js
 document.body.style.backgroundColor = tilfeldigFarge();
 ```
-Eksempel 18 i kapittel "7 - Funksjoner"
+Eksempel 18 i kapittel 7 - Funksjoner
 ```html
 <script>
     var a = 5;
 </script>
 ```
-Eksempel 19 i kapittel "7 - Funksjoner"
+Eksempel 19 i kapittel 7 - Funksjoner
 ```js
 function telle() {
     var b = 5;
@@ -1340,11 +1340,11 @@ function telle() {
     a++;
 }
 ```
-Eksempel 20 i kapittel "7 - Funksjoner"
+Eksempel 20 i kapittel 7 - Funksjoner
 ```js
 const minDiv = document.getElementById('divenmin');
 ```
-Eksempel 21 i kapittel "7 - Funksjoner"
+Eksempel 21 i kapittel 7 - Funksjoner
 ```html
 <script>
     let a = 5; // a er tilgjengelig overalt
@@ -1363,7 +1363,7 @@ Eksempel 21 i kapittel "7 - Funksjoner"
 </script>
 ```
 ## 8 - Problemløsningsteknikker
-Eksempel 1 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 1 i kapittel 8 - Problemløsningsteknikker
 ```js
 function snu(tekst) {
     let snuddTekst = '';
@@ -1373,7 +1373,7 @@ function snu(tekst) {
     return snuddTekst;
 }
 ```
-Eksempel 2 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 2 i kapittel 8 - Problemløsningsteknikker
 ```js
 function snu(tekst) {
     let snuddTekst = '';
@@ -1383,7 +1383,7 @@ function snu(tekst) {
     return snuddTekst;
 }
 ```
-Eksempel 3 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 3 i kapittel 8 - Problemløsningsteknikker
 ```js
 function sjekkAlleMuligheter() {
   return sjekkEnMulighet(1)
@@ -1400,7 +1400,7 @@ function sjekkEnMulighet() {
   return true eller false;
 }
 ```
-Eksempel 4 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 4 i kapittel 8 - Problemløsningsteknikker
 ```js
 function sjekkAlleMuligheter() {
   return sjekkEnMulighet(0, 1, 2)  // rad 1
@@ -1419,12 +1419,12 @@ function sjekkEnMulighet(indeks1, indeks2, indeks3) {
     && model.ruter[indeks1] == model.ruter[indeks3];
 }
 ```
-Eksempel 5 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 5 i kapittel 8 - Problemløsningsteknikker
 ```js
 function sorter( tall1, tall2, tall3 ) {
 }
 ```
-Eksempel 6 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 6 i kapittel 8 - Problemløsningsteknikker
 ```js
 function sorter( tall1, tall2, tall3 ) {
     if (tall1 <= tall2 && tall1 <= tall3) {
@@ -1436,7 +1436,7 @@ function sorter( tall1, tall2, tall3 ) {
     }
 }
 ```
-Eksempel 7 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 7 i kapittel 8 - Problemløsningsteknikker
 ```js
 function sorter( tall1, tall2, tall3 ) {
     if (tall1 <= tall2 && tall1 <= tall3) {
@@ -1460,29 +1460,29 @@ function sorter( tall1, tall2, tall3 ) {
     }
 }
 ```
-Eksempel 8 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 8 i kapittel 8 - Problemløsningsteknikker
 ```
 > liste = ['Per','Pål', 'Espen']
   (3) ["Per", "Pål", "Espen"]
 ```
-Eksempel 9 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 9 i kapittel 8 - Problemløsningsteknikker
 ```
 > liste.splice(1)
   (2) ["Pål", "Espen"]
 ```
-Eksempel 10 i kapittel "8 - Problemløsningsteknikker"
+Eksempel 10 i kapittel 8 - Problemløsningsteknikker
 ```
 > liste
   ["Per"]
 ```
 ## 9 - Model View Controller
-Eksempel 1 i kapittel "9 - Model View Controller"
+Eksempel 1 i kapittel 9 - Model View Controller
 ```html
 <div id="smiley" onclick="klikk()"></div>
 <div id="poeng"></div>
 <button onclick="kjøpOppgradering()">Kjøp oppgradering (10 poeng)</button>
 ```
-Eksempel 2 i kapittel "9 - Model View Controller"
+Eksempel 2 i kapittel 9 - Model View Controller
 ```html
 <style>
     div {
@@ -1491,14 +1491,14 @@ Eksempel 2 i kapittel "9 - Model View Controller"
     }
 </style>
 ```
-Eksempel 3 i kapittel "9 - Model View Controller"
+Eksempel 3 i kapittel 9 - Model View Controller
 ```js
 // model
 var poeng = 0;
 var poengPerKlikk = 1;
 var visFørsteSmiley = true;
 ```
-Eksempel 4 i kapittel "9 - Model View Controller"
+Eksempel 4 i kapittel 9 - Model View Controller
 ```js
 // view
 var smileyDiv = document.getElementById('smiley');
@@ -1510,7 +1510,7 @@ function vis() {
     poengDiv.innerHTML = points;
 }
 ```
-Eksempel 5 i kapittel "9 - Model View Controller"
+Eksempel 5 i kapittel 9 - Model View Controller
 ```js
 function klikk() {
     poeng += poengPerKlikk;
@@ -1526,19 +1526,19 @@ function kjøpOppgradering() {
 }
 ```
 ## 10 - Løkker
-Eksempel 1 i kapittel "10 - Løkker"
+Eksempel 1 i kapittel 10 - Løkker
 ```js
 if (confirm('Vil du fortsette?')) {
     alert('Hurra!');
 }
 ```
-Eksempel 2 i kapittel "10 - Løkker"
+Eksempel 2 i kapittel 10 - Løkker
 ```js
 while (confirm('Vil du fortsette?')) {
     alert('Hurra!');
 }
 ```
-Eksempel 3 i kapittel "10 - Løkker"
+Eksempel 3 i kapittel 10 - Løkker
 ```js
 var tall = 1;
 while (tall < 10) {
@@ -1546,25 +1546,25 @@ while (tall < 10) {
     tall++;
 }
 ```
-Eksempel 4 i kapittel "10 - Løkker"
+Eksempel 4 i kapittel 10 - Løkker
 ```js
 for (var tall = 1; tall < 10; tall++) {
     document.body.innerHTML += tall + ' ';
 }
 ```
-Eksempel 5 i kapittel "10 - Løkker"
+Eksempel 5 i kapittel 10 - Løkker
 ```js
 for (;confirm('Vil du fortsette?');) {
     alert('Hurra!');
 }
 ```
-Eksempel 6 i kapittel "10 - Løkker"
+Eksempel 6 i kapittel 10 - Løkker
 ```js
 for (var tall = 100; tall < 200; tall += 7) {
     document.body.innerHTML += tall + ' ';
 }
 ```
-Eksempel 7 i kapittel "10 - Løkker"
+Eksempel 7 i kapittel 10 - Løkker
 ```js
 function visTall(førsteTall, sisteTall, endring) {
     for (var tall = førsteTall; tall <= sisteTall; tall += endring) {
@@ -1572,7 +1572,7 @@ function visTall(førsteTall, sisteTall, endring) {
     }
 }
 ```
-Eksempel 8 i kapittel "10 - Løkker"
+Eksempel 8 i kapittel 10 - Løkker
 ```js
 function visTall(tall, antallTall, endring) {
     while (antallTall > 0) {
@@ -1582,7 +1582,7 @@ function visTall(tall, antallTall, endring) {
     }
 }
 ```
-Eksempel 9 i kapittel "10 - Løkker"
+Eksempel 9 i kapittel 10 - Løkker
 ```js
 function visTall(tall, antallTall, endring) {
     do {
@@ -1593,18 +1593,18 @@ function visTall(tall, antallTall, endring) {
 }
 ```
 ## 11 - Lister
-Eksempel 1 i kapittel "11 - Lister"
+Eksempel 1 i kapittel 11 - Lister
 ```js
 let navn = ['Per', 'Pål', 'Espen'];
 ```
-Eksempel 2 i kapittel "11 - Lister"
+Eksempel 2 i kapittel 11 - Lister
 ```js
 let navn = [];
 navn[0] = 'Per';
 navn[1] = 'Pål';
 navn[2] = 'Espen';
 ```
-Eksempel 3 i kapittel "11 - Lister"
+Eksempel 3 i kapittel 11 - Lister
 ```js
 var html = '<ul>';
 for(let indeks = 0; indeks < navn.length; indeks++) {
@@ -1613,7 +1613,7 @@ for(let indeks = 0; indeks < navn.length; indeks++) {
 html += '</ul>';
 document.getElementById('enId').innerHTML = html;
 ```
-Eksempel 4 i kapittel "11 - Lister"
+Eksempel 4 i kapittel 11 - Lister
 ```js
 let alleNavn = ['Per', 'Pål', 'Espen'];
 var html = '<ul>';
@@ -1624,13 +1624,13 @@ for(let indeks = 0; indeks < alleNavn.length; indeks++) {
 html += '</ul>';
 document.getElementById('enId').innerHTML = html;
 ```
-Eksempel 5 i kapittel "11 - Lister"
+Eksempel 5 i kapittel 11 - Lister
 ```js
 for(let personNavn of alleNavn) {
     html+= `<li>${personNavn}</li>`;
 }
 ```
-Eksempel 6 i kapittel "11 - Lister"
+Eksempel 6 i kapittel 11 - Lister
 ```js
 let obj = { a: 1, b: 2, c: 3 };
 for (let felt in obj) {
@@ -1638,15 +1638,15 @@ for (let felt in obj) {
     console.log(`${felt}=${verdi}`);
 }
 ```
-Eksempel 7 i kapittel "11 - Lister"
+Eksempel 7 i kapittel 11 - Lister
 ```js
 liste.splice(3, 1);
 ```
-Eksempel 8 i kapittel "11 - Lister"
+Eksempel 8 i kapittel 11 - Lister
 ```js
 tall.splice(7, 0, 1, 2, 3);
 ```
-Eksempel 9 i kapittel "11 - Lister"
+Eksempel 9 i kapittel 11 - Lister
 ```js
 var antall = 0;
 for(let indeks = 0; indeks < alleTall.length; indeks++){
@@ -1657,7 +1657,7 @@ for(let indeks = 0; indeks < alleTall.length; indeks++){
 }
 let harSju = antall > 0;
 ```
-Eksempel 10 i kapittel "11 - Lister"
+Eksempel 10 i kapittel 11 - Lister
 ```js
 function harListenVerdien(minListe, søkeVerdi) {
     for(let indeks = 0; indeks < minListe.length; indeks++){
@@ -1669,7 +1669,7 @@ function harListenVerdien(minListe, søkeVerdi) {
     return false;
 }
 ```
-Eksempel 11 i kapittel "11 - Lister"
+Eksempel 11 i kapittel 11 - Lister
 ```js
 function filtrerTallOverGrense(minListe, grense) {
     let filtrertListe = [];
@@ -1682,7 +1682,7 @@ function filtrerTallOverGrense(minListe, grense) {
     return filtrertListe;
 }
 ```
-Eksempel 12 i kapittel "11 - Lister"
+Eksempel 12 i kapittel 11 - Lister
 ```js
 function finnSum(minListe) {
     let sum = 0;
@@ -1693,7 +1693,7 @@ function finnSum(minListe) {
     return sum;
 }
 ```
-Eksempel 13 i kapittel "11 - Lister"
+Eksempel 13 i kapittel 11 - Lister
 ```js
 function getMax(minListe) {
     if(minListe.length == 0) return null;
@@ -1707,66 +1707,66 @@ function getMax(minListe) {
     return max;
 }
 ```
-Eksempel 14 i kapittel "11 - Lister"
+Eksempel 14 i kapittel 11 - Lister
 ```js
 function finnGjennomsnitt(minListe) {
     return finnSum(minListe) / minListe.length;
 }
 ```
-Eksempel 15 i kapittel "11 - Lister"
+Eksempel 15 i kapittel 11 - Lister
 ```js
 let liste1 = [1,2,3];
 let liste2 = liste1;
 liste1[0] = 5;
 ```
 ## 12 - Funksjonell programmering
-Eksempel 1 i kapittel "12 - Funksjonell programmering"
+Eksempel 1 i kapittel 12 - Funksjonell programmering
 ```js
 function areal(lengde, bredde) {
     return lengde * bredde;
 }
 ```
-Eksempel 2 i kapittel "12 - Funksjonell programmering"
+Eksempel 2 i kapittel 12 - Funksjonell programmering
 ```js
 function (lengde, bredde) {
     return lengde * bredde;
 }
 ```
-Eksempel 3 i kapittel "12 - Funksjonell programmering"
+Eksempel 3 i kapittel 12 - Funksjonell programmering
 ```js
 let beregnetAreal = function (lengde, bredde) {
                         return lengde * bredde;
                     }(3, 4);
 ```
-Eksempel 4 i kapittel "12 - Funksjonell programmering"
+Eksempel 4 i kapittel 12 - Funksjonell programmering
 ```js
 const areal = function (lengde, bredde) {
     return lengde * bredde;
 }
 ```
-Eksempel 5 i kapittel "12 - Funksjonell programmering"
+Eksempel 5 i kapittel 12 - Funksjonell programmering
 ```js
 const areal = (lengde, bredde) => lengde * bredde;
 ```
-Eksempel 6 i kapittel "12 - Funksjonell programmering"
+Eksempel 6 i kapittel 12 - Funksjonell programmering
 ```js
 const kvadrat = side => side * side;
 const tilfeldigTerningVerdi = ()) => Math.ceil(Math.random() * 6);
 ```
-Eksempel 7 i kapittel "12 - Funksjonell programmering"
+Eksempel 7 i kapittel 12 - Funksjonell programmering
 ```js
 const html = (tagNavn, innhold) => `<${tagNavn}>${innhold}</${tagNavn}>`;
 ```
-Eksempel 8 i kapittel "12 - Funksjonell programmering"
+Eksempel 8 i kapittel 12 - Funksjonell programmering
 ```js
 const html = tagNavn => innhold => `<${tagNavn}>${innhold}</${tagNavn}>`;
 ```
-Eksempel 9 i kapittel "12 - Funksjonell programmering"
+Eksempel 9 i kapittel 12 - Funksjonell programmering
 ```js
 const h3 = html('h3');
 const b = html('b');
 ```
-Eksempel 10 i kapittel "12 - Funksjonell programmering"
+Eksempel 10 i kapittel 12 - Funksjonell programmering
 ```js
 function filtrerTallOverGrense(minListe, grense) {
     let filtrertListe = [];
@@ -1779,38 +1779,38 @@ function filtrerTallOverGrense(minListe, grense) {
     return filtrertListe;
 }
 ```
-Eksempel 11 i kapittel "12 - Funksjonell programmering"
+Eksempel 11 i kapittel 12 - Funksjonell programmering
 ```js
 function filtrerTallOverGrense(minListe, grense) {
     return minListe.filter(tall => tall >= grense);
 }
 ```
-Eksempel 12 i kapittel "12 - Funksjonell programmering"
+Eksempel 12 i kapittel 12 - Funksjonell programmering
 ```js
 let alleNavnUpperCase = alleNavn.map(n=>n.toUpperCase());
 ```
-Eksempel 13 i kapittel "12 - Funksjonell programmering"
+Eksempel 13 i kapittel 12 - Funksjonell programmering
 ```js
 let kurs = 8.57;
 let beløpNOK = beløpUSD.map(b => b*kurs);
 ```
-Eksempel 14 i kapittel "12 - Funksjonell programmering"
+Eksempel 14 i kapittel 12 - Funksjonell programmering
 ```js
 let tall = [3,7];
 let sum = tall.reduce((sum, tall)=>tall+sum, 0);
 ```
-Eksempel 15 i kapittel "12 - Funksjonell programmering"
+Eksempel 15 i kapittel 12 - Funksjonell programmering
 ```js
 let alleNavn = ['Per', 'Pål', 'Espen'];
 let html = alleNavn.reduce((htmlListe, navn)=>htmlListe + `<li>${navn}</li>`, '<ul>') + '</ul>';
 ```
 ## 13 - Objekter
-Eksempel 1 i kapittel "13 - Objekter"
+Eksempel 1 i kapittel 13 - Objekter
 ```html
 <input type="tall" onkeydown="if (event.code === 'Enter') leggTilTall(this);" />
 <div id="statistikk"></div>
 ```
-Eksempel 2 i kapittel "13 - Objekter"
+Eksempel 2 i kapittel 13 - Objekter
 ```js
 // Model
 var tall = [];
@@ -1846,26 +1846,26 @@ function vis() {
     statsDiv.innerHTML = statsHtml + tallHtml;
 }
 ```
-Eksempel 3 i kapittel "13 - Objekter"
+Eksempel 3 i kapittel 13 - Objekter
 ```js
 let person = {};
 person.navn = 'Terje';
 person.by = 'Stavern';
 ```
-Eksempel 4 i kapittel "13 - Objekter"
+Eksempel 4 i kapittel 13 - Objekter
 ```js
 let person = {
     navn: 'Terje',
     by: 'Stavern',
 };
 ```
-Eksempel 5 i kapittel "13 - Objekter"
+Eksempel 5 i kapittel 13 - Objekter
 ```js
 let navn = 'Terje';
 let by = 'Stavern';
 let person = {navn, by};
 ```
-Eksempel 6 i kapittel "13 - Objekter"
+Eksempel 6 i kapittel 13 - Objekter
 ```js
 function lagStatistikk() {
     var stats = {};
@@ -1882,7 +1882,7 @@ function lagStatistikk() {
     return stats;
 }
 ```
-Eksempel 7 i kapittel "13 - Objekter"
+Eksempel 7 i kapittel 13 - Objekter
 ```js
 function vis() {
     const tallHtml = `<ul>${tall.map(n => `<li>${n}</li>`).join('')}</ul>`;
@@ -1898,7 +1898,7 @@ function vis() {
     statsDiv.innerHTML = statsHtml + tallHtml;
 }
 ```
-Eksempel 8 i kapittel "13 - Objekter"
+Eksempel 8 i kapittel 13 - Objekter
 ```js
 // model
 var oppgaver = [
@@ -1907,7 +1907,7 @@ var oppgaver = [
     { beskrivelse: 'Spise middag', erGjort: false },
 ];
 ```
-Eksempel 9 i kapittel "13 - Objekter"
+Eksempel 9 i kapittel 13 - Objekter
 ```html
 <table id="oppgaveTabell"></table>
 <p>
@@ -1915,7 +1915,7 @@ Eksempel 9 i kapittel "13 - Objekter"
     <button onclick="leggTilOppgave()">Legg til oppgave</button>
 </p>
 ```
-Eksempel 10 i kapittel "13 - Objekter"
+Eksempel 10 i kapittel 13 - Objekter
 ```js
 // controller
 var beskrivelseInput = document.getElementById('oppgaveBeskrivelse');
@@ -1930,28 +1930,28 @@ function leggTilOppgave() {
     vis();
 }
 ```
-Eksempel 11 i kapittel "13 - Objekter"
+Eksempel 11 i kapittel 13 - Objekter
 ```js
 function endreErGjort(checkbox, indeks) {
     oppgaver[indeks].erGjort = checkbox.checked;
     vis();
 }
 ```
-Eksempel 12 i kapittel "13 - Objekter"
+Eksempel 12 i kapittel 13 - Objekter
 ```js
 function slettOppgave(indeks) {
     oppgaver.splice(indeks, 1);
     vis();
 }
 ```
-Eksempel 13 i kapittel "13 - Objekter"
+Eksempel 13 i kapittel 13 - Objekter
 ```js
 function redigerOppgave(indeks) {
     oppgaver[indeks].redigeringsModus = true;
     vis();
 }
 ```
-Eksempel 14 i kapittel "13 - Objekter"
+Eksempel 14 i kapittel 13 - Objekter
 ```js
 function lagreOppgave(indeks) {
     const id = `redigerOppgave${indeks}`;
@@ -1962,7 +1962,7 @@ function lagreOppgave(indeks) {
     vis();
 }
 ```
-Eksempel 15 i kapittel "13 - Objekter"
+Eksempel 15 i kapittel 13 - Objekter
 ```js
 // view
 var oppgaveTabell = document.getElementById('tasksTable');
@@ -1998,7 +1998,7 @@ function lagHtmlRad(i) {
     return `<tr>${kolonner}</tr>`;
 }
 ```
-Eksempel 16 i kapittel "13 - Objekter"
+Eksempel 16 i kapittel 13 - Objekter
 ```css
     table, tr, td, th {
         border: 1px solid lightgray;
@@ -2016,7 +2016,7 @@ Eksempel 16 i kapittel "13 - Objekter"
         background: antiquewhite;
     }
 ```
-Eksempel 17 i kapittel "13 - Objekter"
+Eksempel 17 i kapittel 13 - Objekter
 ```html
 <head>
     <link rel="stylesheet" href="css/vinlotterix.css" />
@@ -2026,7 +2026,7 @@ Eksempel 17 i kapittel "13 - Objekter"
     <script src="js/vinnere.js"></script>
 </head>
 ```
-Eksempel 18 i kapittel "13 - Objekter"
+Eksempel 18 i kapittel 13 - Objekter
 ```html
 <div class="page" id="page">
     <div class="header" id="header">
@@ -2039,7 +2039,7 @@ Eksempel 18 i kapittel "13 - Objekter"
     </div>
 </div>
 ```
-Eksempel 19 i kapittel "13 - Objekter"
+Eksempel 19 i kapittel 13 - Objekter
 ```js
 visPersoner();
 
@@ -2047,7 +2047,7 @@ function visOgSkjulMeny() {
     document.getElementById('page').classList.toggle('pageUtenMeny');
 }
 ```
-Eksempel 20 i kapittel "13 - Objekter"
+Eksempel 20 i kapittel 13 - Objekter
 ```js
 function visTrekninger() {
   let html = '';
@@ -2071,35 +2071,35 @@ function visTrekninger() {
   document.getElementById('innhold').innerHTML = html;
 }
 ```
-Eksempel 21 i kapittel "13 - Objekter"
+Eksempel 21 i kapittel 13 - Objekter
 ```js
 liste.splice(3, 1);
 ```
-Eksempel 22 i kapittel "13 - Objekter"
+Eksempel 22 i kapittel 13 - Objekter
 ```js
 tall.splice(7, 0, 
     {fornavn: 'Per', etternavn: 'Olsen'},
     {fornavn: 'Pål', etternavn: 'Nilsen'},
     {fornavn: 'Espen', etternavn: 'Hansen'});
 ```
-Eksempel 23 i kapittel "13 - Objekter"
+Eksempel 23 i kapittel 13 - Objekter
 ```js
 let tall = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 tall.sort()
 ```
-Eksempel 24 i kapittel "13 - Objekter"
+Eksempel 24 i kapittel 13 - Objekter
 ```js
 tall.sort((a, b) => a === b ? 0 : a < b ? -1 : 1);
 ```
-Eksempel 25 i kapittel "13 - Objekter"
+Eksempel 25 i kapittel 13 - Objekter
 ```js
 tall.sort((a, b) => a - b);
 ```
-Eksempel 26 i kapittel "13 - Objekter"
+Eksempel 26 i kapittel 13 - Objekter
 ```js
 tall.sort((a, b) => b - a);
 ```
-Eksempel 27 i kapittel "13 - Objekter"
+Eksempel 27 i kapittel 13 - Objekter
 ```js
 let personer = [    
     {fornavn: 'Per', etternavn: 'Olsen', alder: 19},
@@ -2108,62 +2108,62 @@ let personer = [
 ];
 personer.sort((a, b) => a.alder - b.alder);
 ```
-Eksempel 28 i kapittel "13 - Objekter"
+Eksempel 28 i kapittel 13 - Objekter
 ```js
 personer.sort(((a,b) => a.etternavn === b.etternavn ? 0 : 
                         a.etternavn < b.etternavn ? 1 : -1);
 ```
-Eksempel 29 i kapittel "13 - Objekter"
+Eksempel 29 i kapittel 13 - Objekter
 ```js
 personer.sort(((a,b) => a.etternavn.localCompare(b.etternavn));
 ```
-Eksempel 30 i kapittel "13 - Objekter"
+Eksempel 30 i kapittel 13 - Objekter
 ```js
 personer.sort((a, b) => {
   let step1 = a.etternavn.localeCompare(b.etternavn);
   return step1 != 0 ? step1 : a.fornavn.localeCompare(b.fornavn);
 });
 ```
-Eksempel 31 i kapittel "13 - Objekter"
+Eksempel 31 i kapittel 13 - Objekter
 ```js
 personer.sort((a, b) => a.etternavn.localeCompare(b.etternavn) 
                      || a.fornavn.localeCompare(b.fornavn)});
 ```
-Eksempel 32 i kapittel "13 - Objekter"
+Eksempel 32 i kapittel 13 - Objekter
 ```js
 let personerUnder18 = personer.filter(p => p.alder < 18);
 }
 ```
-Eksempel 33 i kapittel "13 - Objekter"
+Eksempel 33 i kapittel 13 - Objekter
 ```js
 let hansens = personer.filter(p => p.etternavn === 'Hansen');
 }
 ```
-Eksempel 34 i kapittel "13 - Objekter"
+Eksempel 34 i kapittel 13 - Objekter
 ```js
 let person = personer.filter(p => p.id === 1037)[0];
 }
 ```
-Eksempel 35 i kapittel "13 - Objekter"
+Eksempel 35 i kapittel 13 - Objekter
 ```js
 let listeFulleNavn = personer.map(p => p.fornavn + ' ' + p.etternavn);
 }
 ```
-Eksempel 36 i kapittel "13 - Objekter"
+Eksempel 36 i kapittel 13 - Objekter
 ```js
 let listeAldersverdier = personer.map(p => p.alder);
 }
 ```
-Eksempel 37 i kapittel "13 - Objekter"
+Eksempel 37 i kapittel 13 - Objekter
 ```js
 let sumAvAlder = personer.reduce((sum, p) => p.alder + sum, 0);
 ```
-Eksempel 38 i kapittel "13 - Objekter"
+Eksempel 38 i kapittel 13 - Objekter
 ```js
 personer.reduce((max, p) => Math.max(p.alder, max), 0);
 ```
 ## 14 - Callbacks, promises og asynkrone kall
-Eksempel 1 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 1 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```html
 <button onclick="select(this)" disabled="disabled">1</button>
 <button onclick="select(this)" disabled="disabled">2</button>
@@ -2184,7 +2184,7 @@ Eksempel 1 i kapittel "14 - Callbacks, promises og asynkrone kall"
     }
 </script>
 ```
-Eksempel 2 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 2 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```html
 <div id="minDiv"></div>
 <button onclick="bestillPizza()">Bestill pizza</button>
@@ -2200,7 +2200,7 @@ Eksempel 2 i kapittel "14 - Callbacks, promises og asynkrone kall"
     }
 </script>
 ``` 
-Eksempel 3 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 3 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 var minDiv = document.getElementById('minDiv');
 
@@ -2217,7 +2217,7 @@ function lagPizza(callback) {
     callback(html);
 }
 ```
-Eksempel 4 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 4 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 function bestillPizza() {
     lagPizza(pizza => minDiv.innerHTML = pizza);
@@ -2228,7 +2228,7 @@ function lagPizza(callback) {
     callback(html);
 }
 ``` 
-Eksempel 5 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 5 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```html
 <button id="minKnapp" onclick="gjørNoe()">Trykk på meg!</button>
 
@@ -2238,7 +2238,7 @@ Eksempel 5 i kapittel "14 - Callbacks, promises og asynkrone kall"
     }
 </script>
 ```
-Eksempel 6 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 6 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```html
 <button id="minKnapp">Trykk på meg!</button>
 
@@ -2251,7 +2251,7 @@ Eksempel 6 i kapittel "14 - Callbacks, promises og asynkrone kall"
     }
 </script>
 ```
-Eksempel 7 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 7 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```html
 <button id="minKnapp">Trykk på meg!</button>
 
@@ -2264,7 +2264,7 @@ Eksempel 7 i kapittel "14 - Callbacks, promises og asynkrone kall"
     }
 </script>
 ```
-Eksempel 8 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 8 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```html
 <input type="number" id="tall" />
 <button onclick="startFaktorisering()">Finn primtallsfaktorene!</button>
@@ -2291,7 +2291,7 @@ Eksempel 8 i kapittel "14 - Callbacks, promises og asynkrone kall"
     }
 </script>
 ```
-Eksempel 9 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 9 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```html
 <input type="number" id="tall" />
 <button onclick="startFaktorisering()">Finn primtallsfaktorene!</button>
@@ -2330,7 +2330,7 @@ Eksempel 9 i kapittel "14 - Callbacks, promises og asynkrone kall"
     }
 </script>
 ```
-Eksempel 10 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 10 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 posisjon(function (posisjon) {
     sted(posisjon, function(sted){
@@ -2340,7 +2340,7 @@ posisjon(function (posisjon) {
     });
 });
 ```
-Eksempel 11 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 11 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 posisjonPromise()
     .then(posisjon => stedPromise(posisjon))
@@ -2348,7 +2348,7 @@ posisjonPromise()
     .then(varsel => document.getElementById('varsel').innerHTML = varsel)
     .catch(error => console.error(error));
 ```
-Eksempel 12 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 12 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 function stedPromise(posisjon) {
     return new Promise(function (resolve, reject) {
@@ -2358,7 +2358,7 @@ function stedPromise(posisjon) {
     });
 }
 ```
-Eksempel 13 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 13 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 function stedPromise(posisjon) {
     return new Promise(function (resolve, reject) {
@@ -2369,7 +2369,7 @@ function stedPromise(posisjon) {
     });
 }
 ```
-Eksempel 14 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 14 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 function finnVærvarsel() {
     posisjonPromise()
@@ -2378,7 +2378,7 @@ function finnVærvarsel() {
         .then(varsel => document.getElementById('varsel').innerHTML = varsel)
 }
 ```
-Eksempel 15 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 15 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 async function finnVærvarsel() {
     let posisjon = await posisjonPromise();
@@ -2387,7 +2387,7 @@ async function finnVærvarsel() {
     document.getElementById('varsel').innerHTML = varsel;
 }
 ```
-Eksempel 16 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 16 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 function finnVærvarsel() {
     posisjonPromise()
@@ -2397,7 +2397,7 @@ function finnVærvarsel() {
         .catch(error => console.error(error));
 }
 ```
-Eksempel 17 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 17 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 async function finnVærvarsel() {
     try {
@@ -2410,7 +2410,7 @@ async function finnVærvarsel() {
     }
 }
 ```
-Eksempel 18 i kapittel "14 - Callbacks, promises og asynkrone kall"
+Eksempel 18 i kapittel 14 - Callbacks, promises og asynkrone kall
 ```js
 <div id="txt"></div>
 <script>
@@ -2439,7 +2439,7 @@ Eksempel 18 i kapittel "14 - Callbacks, promises og asynkrone kall"
 </script>
 ```
 ## 15 - Backend med Google Firebase
-Eksempel 1 i kapittel "15 - Backend med Google Firebase"
+Eksempel 1 i kapittel 15 - Backend med Google Firebase
 ```html
 <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
 <script>
@@ -2455,7 +2455,7 @@ Eksempel 1 i kapittel "15 - Backend med Google Firebase"
   firebase.initializeApp(firebaseConfig);
 </script>
 ```
-Eksempel 2 i kapittel "15 - Backend med Google Firebase"
+Eksempel 2 i kapittel 15 - Backend med Google Firebase
 ```html
 <html>
 <head>
@@ -2485,7 +2485,7 @@ Eksempel 2 i kapittel "15 - Backend med Google Firebase"
 </body>
 </html>
 ```
-Eksempel 3 i kapittel "15 - Backend med Google Firebase"
+Eksempel 3 i kapittel 15 - Backend med Google Firebase
 ```js
 {
     forfatter: "Terje",
@@ -2496,7 +2496,7 @@ Eksempel 3 i kapittel "15 - Backend med Google Firebase"
     }
 }
 ```
-Eksempel 4 i kapittel "15 - Backend med Google Firebase"
+Eksempel 4 i kapittel 15 - Backend med Google Firebase
 ```js
 let kommentarCollection = db.collection('kommentarer');
 let dokumentReferanse = kommentarCollection.doc(id);
@@ -2506,7 +2506,7 @@ unsubscribe = await dokumentReferanse.onSnapshot(
         console.log(dokument);
     });
 ```
-Eksempel 5 i kapittel "15 - Backend med Google Firebase"
+Eksempel 5 i kapittel 15 - Backend med Google Firebase
 ```js
 async function testAvAdd() {
     try {
@@ -2518,7 +2518,7 @@ async function testAvAdd() {
     }
 }
 ```
-Eksempel 6 i kapittel "15 - Backend med Google Firebase"
+Eksempel 6 i kapittel 15 - Backend med Google Firebase
 ```js
 async function testAvSet() {
     try {
@@ -2530,7 +2530,7 @@ async function testAvSet() {
     }
 }
 ```
-Eksempel 7 i kapittel "15 - Backend med Google Firebase"
+Eksempel 7 i kapittel 15 - Backend med Google Firebase
 ```js
 async function lesAlleDokumentene() {
     let kommentarCollection = db.collection('kommentarer');
@@ -2538,7 +2538,7 @@ async function lesAlleDokumentene() {
     let collection = collectionSnapshot.docs.map(dokumentSnapshot => dokumentSnapshot.data());
 }
 ```
-Eksempel 8 i kapittel "15 - Backend med Google Firebase"
+Eksempel 8 i kapittel 15 - Backend med Google Firebase
 ```js
 async function lesAlleDokumentene() {
     let kommentarCollection = db.collection('kommentarer');
@@ -2549,13 +2549,13 @@ async function lesAlleDokumentene() {
     }
 }
 ```
-Eksempel 9 i kapittel "15 - Backend med Google Firebase"
+Eksempel 9 i kapittel 15 - Backend med Google Firebase
 ```js
 let kommentarCollection = db.collection('kommentarer');
 let query = kommentarCollection.where('forfatter', '==', 'Terje')
 let collectionSnapshot = await query.get();
 ```
-Eksempel 10 i kapittel "15 - Backend med Google Firebase"
+Eksempel 10 i kapittel 15 - Backend med Google Firebase
 ```js
 async function hentDataFraFirestore() {
   try {
@@ -2569,7 +2569,7 @@ async function hentDataFraFirestore() {
   }
 }
 ```
-Eksempel 11 i kapittel "15 - Backend med Google Firebase"
+Eksempel 11 i kapittel 15 - Backend med Google Firebase
 ```js
 function mapPerson(personDoc) {
   let personObj = personDoc.data();
@@ -2584,7 +2584,7 @@ function mapTrekning(trekningDoc) {
   return trekningObj;
 }
 ```
-Eksempel 12 i kapittel "15 - Backend med Google Firebase"
+Eksempel 12 i kapittel 15 - Backend med Google Firebase
 ```js
 async function leggTilPerson() {
   const navn = document.getElementById('nyPerson').value;
@@ -2598,7 +2598,7 @@ async function leggTilPerson() {
   }
 }
 ```
-Eksempel 13 i kapittel "15 - Backend med Google Firebase"
+Eksempel 13 i kapittel 15 - Backend med Google Firebase
 ```js
 try {
     let trekningKopi = JSON.parse(JSON.stringify(nyTrekning));
@@ -2611,24 +2611,24 @@ try {
 }  
 ```
 ## 16 - Mer objektorientert Javascript med klasser
-Eksempel 1 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 1 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 motor.start();
 ```
-Eksempel 2 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 2 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 let ruteH3 = {
     kolonne: 'H',
     rad: 3
 };
 ```
-Eksempel 3 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 3 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 function kode(rute) {
     return rute.kolonne + rute.rad;
 }
 ```
-Eksempel 4 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 4 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Rute {
     kode() {
@@ -2636,21 +2636,21 @@ class Rute {
     }
 }
 ```
-Eksempel 5 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 5 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 let ruteH3 = new Rute();
 ruteH3.rad = 3;
 ruteH3.kolonne = 'H';
 console.log(ruteH3.kode());
 ```
-Eksempel 6 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 6 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 let ruteH3 = {};
 ruteH3.rad = 3;
 ruteH3.kolonne = 'H';
 console.log(kode(ruteH3));
 ```
-Eksempel 7 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 7 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Rute {
     constructor() {
@@ -2662,7 +2662,7 @@ class Rute {
     }
 }
 ```
-Eksempel 8 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 8 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Rute {
     constructor(kolonne, rad) {
@@ -2675,11 +2675,11 @@ class Rute {
     }
 }
 ```
-Eksempel 9 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 9 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 let ruteH3 = new Rute('H', 3);
 ```
-Eksempel 10 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 10 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Brikke {
     constructor(kolonne, rad) {
@@ -2692,7 +2692,7 @@ class Brikke {
     }
 }
 ```
-Eksempel 11 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 11 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Brikke {
     constructor(kolonne, rad) {
@@ -2720,7 +2720,7 @@ class Brikke {
     }
 }
 ```
-Eksempel 12 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 12 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Brikke {
     constructor(kolonne, rad) {
@@ -2746,7 +2746,7 @@ class Brikke {
     }
 }
 ```
-Eksempel 13 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 13 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Brikke {
     constructor(kolonneBokstav, rad) {
@@ -2774,7 +2774,7 @@ class Brikke {
     }
 }
 ```
-Eksempel 14 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 14 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Brikke {
     constructor(kolonneBokstav, rad, type) {
@@ -2820,7 +2820,7 @@ class Brikke {
     }
 }
 ```
-Eksempel 15 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 15 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Brett {
     constructor() {
@@ -2842,13 +2842,13 @@ class Brett {
     }
 }
 ```
-Eksempel 16 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 16 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```
 Program->Brett: flytt('a1', 'a4')
 Brett->Brett: finnBrikke('a1')
 Brett->Brikke: flyttTilPosisjon('a4')
 ```
-Eksempel 17 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 17 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 flyttTil(kolonne, rad) {
     this.kolonne = kolonne;
@@ -2856,7 +2856,7 @@ flyttTil(kolonne, rad) {
     return true;
 }
 ```
-Eksempel 18 i kapittel "16 - Mer objektorientert Javascript med klasser"
+Eksempel 18 i kapittel 16 - Mer objektorientert Javascript med klasser
 ```js
 class Tårn extends Brikke {
     constructor(kolonneBokstav, rad) {
@@ -2883,7 +2883,7 @@ class Løper extends Brikke {
 }
 ```
 ## 17 - SPA-rammeverket Vue.js
-Eksempel 1 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 1 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <div id="teller"></div>
 <button onclick="leggTil(1)">+</button>
@@ -2915,7 +2915,7 @@ Eksempel 1 i kapittel "17 - SPA-rammeverket Vue.js"
     }
 </script>
 ```
-Eksempel 2 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 2 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <html>
 <head>
@@ -2942,7 +2942,7 @@ Eksempel 2 i kapittel "17 - SPA-rammeverket Vue.js"
 </body>
 </html>
 ```
-Eksempel 3 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 3 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <!-- View -->
 <div id="app">
@@ -2971,7 +2971,7 @@ Eksempel 3 i kapittel "17 - SPA-rammeverket Vue.js"
     })
 </script>
 ```
-Eksempel 4 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 4 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 methods: {
     endre: function(endring) {
@@ -2982,7 +2982,7 @@ methods: {
     }
 }
 ```
-Eksempel 5 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 5 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <!DOCTYPE html>
 
@@ -3144,7 +3144,7 @@ Eksempel 5 i kapittel "17 - SPA-rammeverket Vue.js"
 </body>
 </html>
 ```
-Eksempel 6 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 6 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <div id="app">
     <div id="teller">{{ teller }}</div>
@@ -3159,7 +3159,7 @@ Eksempel 6 i kapittel "17 - SPA-rammeverket Vue.js"
     })
 </script>
 ```
-Eksempel 7 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 7 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <div id="app">
     <super-teller></super-teller>
@@ -3182,7 +3182,7 @@ Eksempel 7 i kapittel "17 - SPA-rammeverket Vue.js"
         el: '#app'
     })
 ```
-Eksempel 8 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 8 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 Vue.component('super-teller', {
     data() {
@@ -3202,12 +3202,12 @@ Vue.component('super-teller', {
     </div>`
 });
 ```
-Eksempel 9 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 9 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <super-teller start="1000"></super-teller>
 <super-teller start="0"></super-teller>
 ```
-Eksempel 10 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 10 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 Vue.component('super-teller', {
     data() {
@@ -3231,7 +3231,7 @@ Vue.component('super-teller', {
          </div>`
 });
 ```
-Eksempel 11 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 11 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 Vue.component('person-liste', {
     props: ['personerProp'],
@@ -3308,7 +3308,7 @@ Vue.component('person-liste', {
         </div>`
 });
 ```
-Eksempel 12 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 12 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 Vue.component('trekning-liste', {
     props: ['trekningerProp'],
@@ -3353,7 +3353,7 @@ Vue.component('trekning-liste', {
         </div>`
 });
 ```
-Eksempel 13 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 13 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <!DOCTYPE html>
 
@@ -3443,7 +3443,7 @@ Eksempel 13 i kapittel "17 - SPA-rammeverket Vue.js"
 </body>
 </html>
 ```
-Eksempel 14 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 14 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 tell() {
     this.teller++;
@@ -3452,7 +3452,7 @@ tell() {
     }
 }
 ```
-Eksempel 15 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 15 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <div id="app">
     <super-teller @fullført="visEvent" start="0" slutt="4"></super-teller>
@@ -3493,16 +3493,16 @@ Eksempel 15 i kapittel "17 - SPA-rammeverket Vue.js"
     })
 </script>
 ```
-Eksempel 16 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 16 i kapittel 17 - SPA-rammeverket Vue.js
 ```
 npm install -g @vue/cli
 npm install -g @vue/cli-init
 ```
-Eksempel 17 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 17 i kapittel 17 - SPA-rammeverket Vue.js
 ```
 vue init webpack vuetest
 ```
-Eksempel 18 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 18 i kapittel 17 - SPA-rammeverket Vue.js
 ```
 ? Project name vuetest
 ? Project description A Vue.js project
@@ -3514,7 +3514,7 @@ Eksempel 18 i kapittel "17 - SPA-rammeverket Vue.js"
 ? Setup e2e tests with Nightwatch? No
 ? Should we run `npm install` for you after the project has been created? (recommended) npm
 ```
-Eksempel 19 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 19 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <!DOCTYPE html>
 <html>
@@ -3529,7 +3529,7 @@ Eksempel 19 i kapittel "17 - SPA-rammeverket Vue.js"
   </body>
 </html>
 ```
-Eksempel 20 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 20 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <template>
   <div id="app">
@@ -3556,7 +3556,7 @@ export default {
 }
 </style>
 ```
-Eksempel 21 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 21 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -3574,7 +3574,7 @@ export default new Router({
   ]
 })
 ```
-Eksempel 22 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 22 i kapittel 17 - SPA-rammeverket Vue.js
 ```
 Hash: dcf1dbd4ce58da2f3196
 Version: webpack 3.12.0
@@ -3595,18 +3595,18 @@ static/css/app.30790115300ab27614ce176899523b62.css.map  797 bytes          [emi
   Tip: built files are meant to be served over an HTTP server.
   Opening index.html over file:// won't work.
 ```
-Eksempel 23 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 23 i kapittel 17 - SPA-rammeverket Vue.js
 ```
 DONE  Compiled successfully in 3323ms                             14:55:17
  I  Your application is running here: http://localhost:8080
 ```
-Eksempel 24 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 24 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <a name="seksjon1"/><p><h1>Seksjon 1</h1>Bla bla bla.<hr style="height: 500px" /></p>
 <a name="seksjon2"/><p><h1>Seksjon 2</h1>Bla bla bla.<hr style="height: 500px" /></p>
 <a name="seksjon3"/><p><h1>Seksjon 3</h1>Bla bla bla.<hr style="height: 500px" /></p>
 ```
-Eksempel 25 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 25 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <template>
   <div>
@@ -3621,7 +3621,7 @@ export default {
 }
 </script>
 ```
-Eksempel 26 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 26 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <template>
   <div>
@@ -3636,7 +3636,7 @@ export default {
 }
 </script>
 ```
-Eksempel 27 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 27 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -3666,7 +3666,7 @@ export default new Router({
   ]
 })
 ```
-Eksempel 28 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 28 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 
 <template>
@@ -3695,7 +3695,7 @@ export default {
 };
 </script>
 ```
-Eksempel 29 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 29 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 export default new Router({
   routes: [
@@ -3714,7 +3714,7 @@ export default new Router({
   ]
 })
 ```
-Eksempel 30 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 30 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <template>
   <div>
@@ -3750,7 +3750,7 @@ export default {
 };
 </script>
 ```
-Eksempel 31 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 31 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <template>
   <div class="innhold" id="innhold">
@@ -3819,7 +3819,7 @@ export default {
 };
 </script>
 ```
-Eksempel 32 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 32 i kapittel 17 - SPA-rammeverket Vue.js
 ```html
 <template>
   <div class="innhold" id="innhold">
@@ -3910,7 +3910,7 @@ export default {
 };
 </script>
 ```
-Eksempel 33 i kapittel "17 - SPA-rammeverket Vue.js"
+Eksempel 33 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -3937,7 +3937,7 @@ export default new Router({
 })
 ```
 ## 18 - Rest-API
-Eksempel 1 i kapittel "18 - Rest-API"
+Eksempel 1 i kapittel 18 - Rest-API
 ```js
 {
   "categories": [
@@ -3951,7 +3951,7 @@ Eksempel 1 i kapittel "18 - Rest-API"
   "value": "Chuck Norris jumped to the top of Mount Everest."
 }
 ```
-Eksempel 2 i kapittel "18 - Rest-API"
+Eksempel 2 i kapittel 18 - Rest-API
 ```html
 <head>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -3971,7 +3971,7 @@ Eksempel 2 i kapittel "18 - Rest-API"
 </body>
 ```
 ## Sende med data
-Eksempel 1 i kapittel "Sende med data"
+Eksempel 1 i kapittel Sende med data
 ```js
 async function testPost() {
     let files = {
@@ -3988,14 +3988,14 @@ async function testPost() {
 }
 ```
 ## 19 - Kodegenerering og metadata
-Eksempel 1 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 1 i kapittel 19 - Kodegenerering og metadata
 ```
 https://api.chucknorris.io/jokes/random
 https://api.chucknorris.io/jokes/random?category={category}
 https://api.chucknorris.io/jokes/categories
 https://api.chucknorris.io/jokes/search?query={query}
 ```
-Eksempel 2 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 2 i kapittel 19 - Kodegenerering og metadata
 ```js
 let urler = [
     'https://api.chucknorris.io/jokes/random',
@@ -4017,7 +4017,7 @@ async function kjørTest() {
     console.log(tilfeldigVits, tilfeldigFilmvits, kategorier, programmeringsvitser;
 }
 ```
-Eksempel 3 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 3 i kapittel 19 - Kodegenerering og metadata
 ```js
 function lagFunksjoner(urler) {
     let kode = '';
@@ -4046,7 +4046,7 @@ function analyserUrl(url) {
     return { navn, param };
 }
 ```
-Eksempel 4 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 4 i kapittel 19 - Kodegenerering og metadata
 ```js
 async function random() {
     let url = 'https://api.chucknorris.io/jokes/random';
@@ -4073,14 +4073,14 @@ async function search2(query) {
     return resultat.data;
 }
 ```
-Eksempel 5 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 5 i kapittel 19 - Kodegenerering og metadata
 ```js
 random = async () => await chuckNorrisRestKall('random', {} ); 
 randomCategory = async (category) => await chuckNorrisRestKall('random', {category} ); 
 categories = async () => await chuckNorrisRestKall('categories', {} ); 
 searchQuery = async (query) => await chuckNorrisRestKall('search', {query} );
 ```
-Eksempel 6 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 6 i kapittel 19 - Kodegenerering og metadata
 ```js
 function lagFunksjoner(urler) {
     let kode = '';
@@ -4118,7 +4118,7 @@ function analyserUrl(url) {
     return { navn, param };
 }
 ```
-Eksempel 7 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 7 i kapittel 19 - Kodegenerering og metadata
 ```js
 let urler = [
     'https://api.chucknorris.io/jokes/random',
@@ -4127,7 +4127,7 @@ let urler = [
     'https://api.chucknorris.io/jokes/search?query={query}'
 ];
 ```
-Eksempel 8 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 8 i kapittel 19 - Kodegenerering og metadata
 ```js
 let chuckNorrisApiMetadata = {
     basisUrl: 'https://api.chucknorris.io/jokes/random',
@@ -4139,7 +4139,7 @@ let chuckNorrisApiMetadata = {
     ]
 };
 ``` 
-Eksempel 9 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 9 i kapittel 19 - Kodegenerering og metadata
 ```js
 {
     rom: [
@@ -4159,7 +4159,7 @@ Eksempel 9 i kapittel "19 - Kodegenerering og metadata"
     ]
 };
 ```
-Eksempel 10 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 10 i kapittel 19 - Kodegenerering og metadata
 ```html
 <div id="game">
     <h3 v-if="spiller.rom.vunnet">Gratulerer - du har fullført spillet! :-)</h3>
@@ -4196,7 +4196,7 @@ Eksempel 10 i kapittel "19 - Kodegenerering og metadata"
     </p>
 </div>
 ```
-Eksempel 11 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 11 i kapittel 19 - Kodegenerering og metadata
 ```js
 var app = new Vue({
     el: '#game',
@@ -4237,7 +4237,7 @@ var app = new Vue({
     }
 });
 ```
-Eksempel 12 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 12 i kapittel 19 - Kodegenerering og metadata
 ```html
 <table style="text-align: left">
   <tr>
@@ -4250,7 +4250,7 @@ Eksempel 12 i kapittel "19 - Kodegenerering og metadata"
   </tr>
 </table>
 ```
-Eksempel 13 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 13 i kapittel 19 - Kodegenerering og metadata
 ```html
 <template>
   <div>
@@ -4283,11 +4283,11 @@ table {
 }
 </style>
 ```
-Eksempel 14 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 14 i kapittel 19 - Kodegenerering og metadata
 ```html
 <skjema-visning :person="{navn: 'Terje Kolderup', fødselsår: 1975}"></skjema-visning>
 ```		
-Eksempel 15 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 15 i kapittel 19 - Kodegenerering og metadata
 ```html
 <template>
   <div>
@@ -4311,7 +4311,7 @@ export default {
 };
 </script>
 ```
-Eksempel 16 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 16 i kapittel 19 - Kodegenerering og metadata
 ```html
 <template>
   <div class="hello">
@@ -4340,7 +4340,7 @@ export default {
 }
 </script>
 ```
-Eksempel 17 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 17 i kapittel 19 - Kodegenerering og metadata
 ```js
 let komponenter = {
     overskrift: function (data) {},
@@ -4349,7 +4349,7 @@ let komponenter = {
     meny: function (data, metadata) {},
 };
 ```
-Eksempel 18 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 18 i kapittel 19 - Kodegenerering og metadata
 ```js
 overskrift: function (data) {
     let p = data.tekst ? `<p>${data.tekst}</p>` : '';
@@ -4359,7 +4359,7 @@ overskrift: function (data) {
             </div>`;
 }
 ```
-Eksempel 19 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 19 i kapittel 19 - Kodegenerering og metadata
 ```js
 meny: function (data, metadata) {
     return `<div class="sideElement" style="grid-area: meny" class="meny">
@@ -4375,7 +4375,7 @@ meny: function (data, metadata) {
             </div>`;
 }
 ```
-Eksempel 20 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 20 i kapittel 19 - Kodegenerering og metadata
 ```js
 sider: {
     "forside": {
@@ -4393,7 +4393,7 @@ sider: {
         visningsnavn: 'Kontakt oss',
     }
 ```
-Eksempel 21 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 21 i kapittel 19 - Kodegenerering og metadata
 ```js
 skjemaVisning: function (data, metadata, index) {
     if (index != null) {
@@ -4409,7 +4409,7 @@ skjemaVisning: function (data, metadata, index) {
                 </table></div>`;
 }
 ```
-Eksempel 22 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 22 i kapittel 19 - Kodegenerering og metadata
 ```js
 listeVisning: function (data, metadata) {
     return `<div class="sideElement" style="grid-area: listeVisning">
@@ -4427,7 +4427,7 @@ listeVisning: function (data, metadata) {
             </div>`;
 }
 ```
-Eksempel 23 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 23 i kapittel 19 - Kodegenerering og metadata
 ```js
 class ProduktkatalogApp {
     constructor() {
@@ -4454,7 +4454,7 @@ class ProduktkatalogApp {
 let app = new ProduktkatalogApp();
 app.visSide('forside');
 ```
-Eksempel 24 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 24 i kapittel 19 - Kodegenerering og metadata
 ```js
 [
     { navn: "Gullskje 22cm", pris: 990, kategori: "skje" },
@@ -4468,7 +4468,7 @@ Eksempel 24 i kapittel "19 - Kodegenerering og metadata"
     { navn: "Stålgaffel 22cm", pris: 19, kategori: "gaffel" }
 ]
 ```
-Eksempel 25 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 25 i kapittel 19 - Kodegenerering og metadata
 ```js
 tekster: {
     forside: {
@@ -4501,7 +4501,7 @@ tekster: {
     }
 }
 ```
-Eksempel 26 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 26 i kapittel 19 - Kodegenerering og metadata
 ```js
 produkt: {
     felt: [
@@ -4528,7 +4528,7 @@ kontaktOss: {
     ]
 }
 ```
-Eksempel 27 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 27 i kapittel 19 - Kodegenerering og metadata
 ```js
 maler: {
     infoSide: {
@@ -4549,7 +4549,7 @@ maler: {
     }
 }
 ```
-Eksempel 28 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 28 i kapittel 19 - Kodegenerering og metadata
 ```js
 sider: {
     "forside": {
@@ -4583,7 +4583,7 @@ sider: {
     }
 }
 ```
-Eksempel 29 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 29 i kapittel 19 - Kodegenerering og metadata
 ```js
 visSide(sidenavn, parameter) {
     let metadataSide = this.metadata.sider[sidenavn];
@@ -4602,7 +4602,7 @@ visSide(sidenavn, parameter) {
             </div>`;
 }
 ```
-Eksempel 30 i kapittel "19 - Kodegenerering og metadata"
+Eksempel 30 i kapittel 19 - Kodegenerering og metadata
 ```js
 renderKomponent(komponentNavn, metadataSide, parameter) {
     let komponentFunksjon = komponenter[komponentNavn];
