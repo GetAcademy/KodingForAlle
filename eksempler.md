@@ -514,37 +514,33 @@ Eksempel 23 i kapittel 4 - Grunnferdigheter i Javascript
 ```
 Eksempel 24 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
-document.getElementById('o').innerHTML = 'x';
-```
-Eksempel 25 i kapittel 4 - Grunnferdigheter i Javascript
-```js
 alert('Hei' + 'på' + 'deg!');
 ```
-Eksempel 26 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 25 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <button onclick="alert('Hei, ' + this.innerHTML + '!')">Per</button>
 <button onclick="alert('Hei, ' + this.innerHTML + '!')">Pål</button>
 <button onclick="alert('Hei, ' + this.innerHTML + '!')">Espen</button>
 ```
-Eksempel 27 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 26 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = 'Hei, ' + navn + '. Hvordan står det til i ' + sted + '?';
 ```
-Eksempel 28 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 27 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = `Hei, ${navn}. Hvordan står det til i ${sted}?`;
 ```
-Eksempel 29 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 28 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = `Hei, ${navn}. 
              Hvordan står det til i ${sted}?`;
 ```
-Eksempel 30 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 29 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var tekst = 'Hei, ' + navn + '.' 
           + 'Hvordan står det til i ' + sted + '?';
 ```
-Eksempel 31 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 30 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <script>
     console.log('Hei');
@@ -552,11 +548,11 @@ Eksempel 31 i kapittel 4 - Grunnferdigheter i Javascript
     console.log('deg!');
 </script>
 ```
-Eksempel 32 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 31 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var navnFraSkjema = document.getElementById('navn').value;
 ```
-Eksempel 33 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 32 i kapittel 4 - Grunnferdigheter i Javascript
 ```js
 var minDiv = document.getElementById('minDiv');
 minDiv.style.backgroundColor = '#4567ab';
@@ -566,22 +562,22 @@ minDiv.classList.add('active');
 minDiv.classList.remove('old');
 minDiv.classList.toggle('something');
 ```
-Eksempel 34 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 33 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <div class="something old"></div>
 ```
-Eksempel 35 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 34 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <div class="active"></div>
 ```
-Eksempel 36 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 35 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
 <input type="text"
        onclick="console.log('onclick ' + this.value)"
        oninput="console.log('oninput ' + this.value)"
        onchange="console.log('onchange ' + this.value)"/>
 ```
-Eksempel 37 i kapittel 4 - Grunnferdigheter i Javascript
+Eksempel 36 i kapittel 4 - Grunnferdigheter i Javascript
 ```
 onclick 
 oninput h
@@ -660,17 +656,16 @@ Eksempel 14 i kapittel 5 - Variabler
 ```html
 <div id="content">Hallo!</div>
 <button onclick="wrap()">Wrap!</button>
+<script>
+    function wrap() {
+        var contentDiv = document.getElementById('content');
+        var innhold = contentDiv.innerHTML;
+        contentDiv.innerHTML = '<ul><li>' + innhold + '</li><li>'
+            + innhold + '</li></ul>';
+    }
+</script>
 ```
 Eksempel 15 i kapittel 5 - Variabler
-```js
-function wrap() {
-    var contentDiv = document.getElementById('content');
-    var innhold = contentDiv.innerHTML;
-    contentDiv.innerHTML = '<ul><li>' + innhold + '</li><li>'
-        + innhold + '</li></ul>';
-}
-```
-Eksempel 16 i kapittel 5 - Variabler
 ```js
 function wrap() {
     var contentDiv = document.getElementById('content');
@@ -682,7 +677,7 @@ function wrap() {
         </ul>`;
 }
 ```
-Eksempel 17 i kapittel 5 - Variabler
+Eksempel 16 i kapittel 5 - Variabler
 ```js
 var antallKlikk = 0;
 
@@ -691,19 +686,19 @@ function tell() {
     console.log(antallKlikk);
 }
 ```
-Eksempel 18 i kapittel 5 - Variabler
+Eksempel 17 i kapittel 5 - Variabler
 ```html
 <button onclick="merk(this)">A</button>
 <button onclick="merk(this)">B</button>
 <button onclick="merk(this)">C</button>
 ```
-Eksempel 19 i kapittel 5 - Variabler
+Eksempel 18 i kapittel 5 - Variabler
 ```js
 function merk(element){
   element.style.border = 'dashed orange 2px';
 }
 ```
-Eksempel 20 i kapittel 5 - Variabler
+Eksempel 19 i kapittel 5 - Variabler
 ```js
 var forrigeElement;
 
@@ -713,23 +708,22 @@ function merk(element){
   forrigeElement = element;
 }
 ```
-Eksempel 21 i kapittel 5 - Variabler
+Eksempel 20 i kapittel 5 - Variabler
 ```html
 <button id="knappA" onclick="merk(this)">A</button>
 <button onclick="merk(this)">B</button>
 <button onclick="merk(this)">C</button>
-```
-Eksempel 22 i kapittel 5 - Variabler
-```js
-var forrigeElement = document.getElementById('knappA');
+<script>
+    var forrigeElement = document.getElementById('knappA');
 
-function merk(element){
-  element.style.border = 'dashed orange 2px';
-  forrigeElement.style.border = 'none';
-  forrigeElement = element;
-}
+    function merk(element){
+    element.style.border = 'dashed orange 2px';
+    forrigeElement.style.border = 'none';
+    forrigeElement = element;
+    }
+</script>
 ```
-Eksempel 23 i kapittel 5 - Variabler
+Eksempel 21 i kapittel 5 - Variabler
 ```js
 var tekstA = '5';
 var tekstB = '7';
@@ -737,7 +731,7 @@ var tallA = parseInt(tekstA);
 var tallB = parseInt(tekstB);
 var x = tallA + tallB; 
 ```
-Eksempel 24 i kapittel 5 - Variabler
+Eksempel 22 i kapittel 5 - Variabler
 ```html
 <input id="tallA" type="range" min="1" max="100" step="1" value="2" 
        oninput="calculate()" />
@@ -764,7 +758,7 @@ Eksempel 24 i kapittel 5 - Variabler
     }
 </script>
 ```
-Eksempel 25 i kapittel 5 - Variabler
+Eksempel 23 i kapittel 5 - Variabler
 ```js
 var resultatDiv = document.getElementById('resultat');
 calculate();
