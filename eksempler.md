@@ -493,23 +493,22 @@ Eksempel 21 i kapittel 4 - Grunnferdigheter i Javascript
 ```
 Eksempel 22 i kapittel 4 - Grunnferdigheter i Javascript
 ```html
+<h1 onclick="trykk()">Trykk!</h1>
+<h1 id="o">Trykk!</h1>
+<script>
+    function trykk() {
+        document.getElementById('o').innerHTML = 'x';
+    }
+</script>
+```
+
+Eksempel 23 i kapittel 4 - Grunnferdigheter i Javascript
+```html
 <h1 onclick="trykk(this)">Trykk!</h1>
 <h1 onclick="trykk(this)">Trykk!</h1>
 <script>
     function trykk(trykketPåTag) {
         trykketPåTag.innerHTML = 'x';
-    }
-</script>
-```
-Eksempel 23 i kapittel 4 - Grunnferdigheter i Javascript
-```html
-<h1 onclick="trykk()">Trykk!</h1>
-<h1 id="o">Trykk!</h1>
-<script>
-    function trykk() {
-        document
-          .getElementById('o')
-          .innerHTML = 'x';
     }
 </script>
 ```
