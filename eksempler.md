@@ -118,19 +118,12 @@ Eksempel 2 i kapittel 2 - CSS
 </body>
 ```
 Eksempel 3 i kapittel 2 - CSS
-```css
-div.specialEffect {
-  border: 4px dashed orange;
-  padding: 5px;
-}
-```
-Eksempel 4 i kapittel 2 - CSS
 ```html
 <div>A</div>
 <div class="specialEffect">B</div>
 <div>C</div>
 ```
-Eksempel 5 i kapittel 2 - CSS
+Eksempel 4 i kapittel 2 - CSS
 ```html
 <div class="specialEffect">B</div>
 ``` 
