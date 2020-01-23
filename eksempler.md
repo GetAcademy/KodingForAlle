@@ -1049,15 +1049,19 @@ Eksempel 26 i kapittel 6 - Valgsetninger
 if( txt != undefined && txt.length == 10 )
 ```  
 Eksempel 27 i kapittel 6 - Valgsetninger
+```js
+alert( `Hei, ${ name || 'kompis' }!`); 
 ```
+Eksempel 28 i kapittel 6 - Valgsetninger
+```html
 <br/>A <input type="checkbox"/>
 <br/>B <input type="checkbox" checked="checked"/>
 ```
-Eksempel 28 i kapittel 6 - Valgsetninger
+Eksempel 29 i kapittel 6 - Valgsetninger
 ```js
 var erValgt = document.getElementById('chk1').checked;
 ```
-Eksempel 29 i kapittel 6 - Valgsetninger
+Eksempel 30 i kapittel 6 - Valgsetninger
 ```js
 <div id="info"></div>
 <input id="a" type="checkbox" onchange="info()" />Checkbox A<br />
@@ -1083,44 +1087,44 @@ Eksempel 29 i kapittel 6 - Valgsetninger
     }
 </script>
 ```
-Eksempel 30 i kapittel 6 - Valgsetninger
+Eksempel 31 i kapittel 6 - Valgsetninger
 ```js
 var erValgt = document.getElementById('chk1').checked;
 if( erValgt ) {
     ...
 }
 ```
-Eksempel 31 i kapittel 6 - Valgsetninger
+Eksempel 32 i kapittel 6 - Valgsetninger
 ```js
 if( document.getElementById('chk1').checked ) {
     ...
 }
 ```
-Eksempel 32 i kapittel 6 - Valgsetninger
+Eksempel 33 i kapittel 6 - Valgsetninger
 ```js
 if( n < 10 ) {
     ...
 }
 ```
-Eksempel 33 i kapittel 6 - Valgsetninger
+Eksempel 34 i kapittel 6 - Valgsetninger
 ```js
 var verdienErRiktig = n < 10;
 if( verdienErRiktig ) {
     ...
 }
 ```
-Eksempel 34 i kapittel 6 - Valgsetninger
+Eksempel 35 i kapittel 6 - Valgsetninger
 ```js
 var a = true;
 var b = false;
 ```
-Eksempel 35 i kapittel 6 - Valgsetninger
+Eksempel 36 i kapittel 6 - Valgsetninger
 ```js
 if( !document.getElementById('chk1').checked ) {
     ...
 }
 ```
-Eksempel 36 i kapittel 6 - Valgsetninger
+Eksempel 37 i kapittel 6 - Valgsetninger
 ```html
 <h3>Pizza-bestilling</h3>
 <div id="info" >Gjør ett valg på hver linje:</div>
@@ -1138,7 +1142,7 @@ Størrelse: <input id="stor" type="radio" name="str" />Stor
 
 <button id="bestill" onclick="bestill()">Bestill</button>
 ```
-Eksempel 37 i kapittel 6 - Valgsetninger
+Eksempel 38 i kapittel 6 - Valgsetninger
 ```js
 var btnBestill = document.getElementById('bestill');
 var infoDiv = document.getElementById('info');
@@ -1151,7 +1155,7 @@ var strStor = document.getElementById('stor');
 var strMiddels = document.getElementById('middels');
 var strLiten = document.getElementById('liten');
 ```
-Eksempel 38 i kapittel 6 - Valgsetninger
+Eksempel 39 i kapittel 6 - Valgsetninger
 ```js
 if ((bunnTykk.checked || bunnTynn.checked) &&
     (fyllTaco.checked || fyllKylling.checked || fyllPepperoni.checked) &&
@@ -1159,13 +1163,13 @@ if ((bunnTykk.checked || bunnTynn.checked) &&
     infoDiv.innerHTML = 'Du har fylt ut alt og er klar til å bestille!';
 } 
 ```
-Eksempel 39 i kapittel 6 - Valgsetninger
+Eksempel 40 i kapittel 6 - Valgsetninger
 ```js
 if ( bunnTykk.checked || bunnTynn.checked &&
      fyllTaco.checked || fyllKylling.checked || fyllPepperoni.checked &&
      strStor.checked || strMiddels.checked || strLiten.checked ) 
 ```
-Eksempel 40 i kapittel 6 - Valgsetninger
+Eksempel 41 i kapittel 6 - Valgsetninger
 ```js
 if ( bunnTykk.checked 
     || bunnTynn.checked && fyllTaco.checked 
@@ -1174,7 +1178,7 @@ if ( bunnTykk.checked
     || strMiddels.checked 
     || strLiten.checked ) 
 ```
-Eksempel 41 i kapittel 6 - Valgsetninger
+Eksempel 42 i kapittel 6 - Valgsetninger
 ```js
 else {
     infoDiv.innerHTML = 'Du har ikke valgt:';
