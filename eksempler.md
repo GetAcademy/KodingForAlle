@@ -1062,7 +1062,7 @@ Eksempel 29 i kapittel 6 - Valgsetninger
 var erValgt = document.getElementById('chk1').checked;
 ```
 Eksempel 30 i kapittel 6 - Valgsetninger
-```js
+```html
 <div id="info"></div>
 <input id="a" type="checkbox" onchange="info()" />Checkbox A<br />
 <input id="b" type="checkbox" onchange="info()" />Checkbox B<br />
@@ -1221,11 +1221,11 @@ function visLagretPopup() {
 ```
 Eksempel 4 i kapittel 7 - Funksjoner
 ```html
-<button onclick="lukkPopup()">Ok</button>'
+<button onclick="lukkPopup()">Ok</button>
 ```
 Eksempel 5 i kapittel 7 - Funksjoner
 ```html
-<button onclick="visPopup()">Ok</button>'
+<button onclick="visPopup()">Ok</button>
 ```
 Eksempel 6 i kapittel 7 - Funksjoner
 ```js
