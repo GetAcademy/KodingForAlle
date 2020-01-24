@@ -4362,18 +4362,18 @@ meny: function (data, metadata) {
 Eksempel 20 i kapittel 19 - Kodegenerering og metadata
 ```js
 sider: {
-    "forside": {
+    forside: {
         visningsnavn: 'Hjem',
     },
-    "kategoriListe": {
+    kategoriListe: {
         visningsnavn: 'Kategorier',
     },
-    "produktListe": {
+    produktListe: {
         visningsnavn: 'Alle produkter',
     },
-    "enkeltProdukt": {
+    enkeltProdukt: {
     },
-    "kontaktOss": {
+    kontaktOss: {
         visningsnavn: 'Kontakt oss',
     }
 ```
@@ -4446,15 +4446,15 @@ app.visSide('forside');
 Eksempel 25 i kapittel 19 - Kodegenerering og metadata
 ```js
 [
-    { navn: "Gullskje 22cm", pris: 990, kategori: "skje" },
-    { navn: "Sølvskje 22cm", pris: 190, kategori: "skje" },
-    { navn: "Stålskje 22cm", pris: 19, kategori: "skje" },
-    { navn: "Gullkniv 22cm", pris: 990, kategori: "kniv" },
-    { navn: "Sølvkniv 22cm", pris: 190, kategori: "kniv" },
-    { navn: "Stålkniv 22cm", pris: 19, kategori: "kniv" },
-    { navn: "Gullgaffel 22cm", pris: 990, kategori: "gaffel" },
-    { navn: "Sølvgaffel 22cm", pris: 190, kategori: "gaffel" },
-    { navn: "Stålgaffel 22cm", pris: 19, kategori: "gaffel" }
+    { navn: "Gullskje 22 cm", pris: 990, kategori: "skje" },
+    { navn: "Sølvskje 22 cm", pris: 190, kategori: "skje" },
+    { navn: "Stålskje 22 cm", pris: 19, kategori: "skje" },
+    { navn: "Gullkniv 22 cm", pris: 990, kategori: "kniv" },
+    { navn: "Sølvkniv 22 cm", pris: 190, kategori: "kniv" },
+    { navn: "Stålkniv 22 cm", pris: 19, kategori: "kniv" },
+    { navn: "Gullgaffel 22 cm", pris: 990, kategori: "gaffel" },
+    { navn: "Sølvgaffel 22 cm", pris: 190, kategori: "gaffel" },
+    { navn: "Stålgaffel 22 cm", pris: 19, kategori: "gaffel" }
 ]
 ```
 Eksempel 26 i kapittel 19 - Kodegenerering og metadata
@@ -4541,34 +4541,34 @@ maler: {
 Eksempel 29 i kapittel 19 - Kodegenerering og metadata
 ```js
 sider: {
-    "forside": {
+    forside: {
         visningsnavn: 'Hjem',
         mal: "infoSide",
-        data: { "overskrift": "tekster.forside", "skjemaVisning": "tekster.info" },
-        metadata: { "skjemaVisning": "forside", "meny": "sider" },
+        data: { overskrift: "tekster.forside", skjemaVisning: "tekster.info" },
+        metadata: { skjemaVisning: "forside", meny: "sider" },
     },
-    "kategoriListe": {
+    kategoriListe: {
         visningsnavn: 'Kategorier',
         mal: "listeSide",
-        data: { "overskrift": "tekster.kategorier", "listeVisning": "kategorier" },
-        metadata: { "meny": "sider", "listeVisning": "kategorier" },
+        data: { overskrift: "tekster.kategorier", listeVisning: "kategorier" },
+        metadata: { meny: "sider", listeVisning: "kategorier" },
     },
-    "produktListe": {
+    produktListe: {
         visningsnavn: 'Alle produkter',
         mal: "listeSide",
-        data: { "overskrift": "tekster.produkter", "listeVisning": "produkter" },
-        metadata: { "listeVisning": "produkt", "meny": "sider" }
+        data: { overskrift: "tekster.produkter", listeVisning: "produkter" },
+        metadata: { listeVisning: "produkt", meny: "sider" }
     },
-    "enkeltProdukt": {
+    enkeltProdukt: {
         mal: "infoSide",
-        data: { "overskrift": "tekster.produkt", "skjemaVisning": "produkter" },
-        metadata: { "skjemaVisning": "produkt", "meny": "sider" }
+        data: { overskrift: "tekster.produkt", skjemaVisning: "produkter" },
+        metadata: { skjemaVisning: "produkt", meny: "sider" }
     },
-    "kontaktOss": {
+    kontaktOss: {
         visningsnavn: 'Kontakt oss',
         mal: "infoSide",
-        data: { "overskrift": "tekster.kontaktOss", "skjemaVisning": "tekster.kontaktOss.felt" },
-        metadata: { "skjemaVisning": "kontaktOss", "meny": "sider" }
+        data: { overskrift: "tekster.kontaktOss", skjemaVisning: "tekster.kontaktOss.felt" },
+        metadata: { skjemaVisning: "kontaktOss", meny: "sider" }
     }
 }
 ```
