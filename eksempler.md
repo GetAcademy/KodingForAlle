@@ -1799,63 +1799,62 @@ Eksempel 1 i kapittel 13 - Objekter
 ```html
 <input type="tall" onkeydown="if (event.code === 'Enter') leggTilTall(this);" />
 <div id="statistikk"></div>
+<script>
+    // Model
+    var tall = [];
+
+    // Controller
+    function leggTilTall(inputTag) {
+        tall.push(parseInt(inputTag.value));
+        inputTag.value = '';
+        vis();
+    }
+
+    // View
+    var statsDiv = document.getElementById('statistikk');
+    function vis() {
+        const tallHtml = `<ul>${tall.map(n => `<li>${n}</li>`).join('')}</ul>`;
+        var min = tall[0];
+        var max = tall[0];
+        var sum = 0;
+        for (let n of tall) {
+            if (n < min) min = n;
+            if (n > max) max = n;
+            sum += n;
+        }
+        var gjennomsnitt = sum / numbers.length;
+        const statsHtml = 
+            `<table>
+                <tr><td>Min</td><td>${min}</td></tr>
+                <tr><td>Max</td><td>${max}</td></tr>
+                <tr><td>Sum</td><td>${sum}</td></tr>
+                <tr><td>Snitt</td><td>${avg}</td></tr>
+                <tr><td>Antall</td><td>${numbers.length}</td></tr>
+            </table>`;
+        statsDiv.innerHTML = statsHtml + tallHtml;
+    }
+</script>    
 ```
 Eksempel 2 i kapittel 13 - Objekter
-```js
-// Model
-var tall = [];
-
-// Controller
-function leggTilTall(inputTag) {
-    tall.push(parseInt(inputTag.value));
-    inputTag.value = '';
-    vis();
-}
-
-// View
-var statsDiv = document.getElementById('statistikk');
-function vis() {
-    const tallHtml = `<ul>${tall.map(n => `<li>${n}</li>`).join('')}</ul>`;
-    var min = tall[0];
-    var max = tall[0];
-    var sum = 0;
-    for (let n of tall) {
-        if (n < min) min = n;
-        if (n > max) max = n;
-        sum += n;
-    }
-    var gjennomsnitt = sum / numbers.length;
-    const statsHtml = 
-        `<table>
-            <tr><td>Min</td><td>${min}</td></tr>
-            <tr><td>Max</td><td>${max}</td></tr>
-            <tr><td>Sum</td><td>${sum}</td></tr>
-            <tr><td>Snitt</td><td>${avg}</td></tr>
-            <tr><td>Antall</td><td>${numbers.length}</td></tr>
-        </table>`;
-    statsDiv.innerHTML = statsHtml + tallHtml;
-}
-```
-Eksempel 3 i kapittel 13 - Objekter
 ```js
 let person = {};
 person.navn = 'Terje';
 person.by = 'Stavern';
 ```
-Eksempel 4 i kapittel 13 - Objekter
+Eksempel 3 i kapittel 13 - Objekter
 ```js
 let person = {
     navn: 'Terje',
     by: 'Stavern',
 };
 ```
-Eksempel 5 i kapittel 13 - Objekter
+Eksempel 4 i kapittel 13 - Objekter
 ```js
 let navn = 'Terje';
 let by = 'Stavern';
 let person = {navn, by};
 ```
-Eksempel 6 i kapittel 13 - Objekter
+Eksempel 5 i kapittel 13 - Objekter
 ```js
 function lagStatistikk() {
     var stats = {};
@@ -1872,7 +1871,7 @@ function lagStatistikk() {
     return stats;
 }
 ```
-Eksempel 7 i kapittel 13 - Objekter
+Eksempel 6 i kapittel 13 - Objekter
 ```js
 function vis() {
     const tallHtml = `<ul>${tall.map(n => `<li>${n}</li>`).join('')}</ul>`;
@@ -1888,7 +1887,7 @@ function vis() {
     statsDiv.innerHTML = statsHtml + tallHtml;
 }
 ```
-Eksempel 8 i kapittel 13 - Objekter
+Eksempel 7 i kapittel 13 - Objekter
 ```js
 // model
 var oppgaver = [
@@ -1897,7 +1896,7 @@ var oppgaver = [
     { beskrivelse: 'Spise middag', erGjort: false },
 ];
 ```
-Eksempel 9 i kapittel 13 - Objekter
+Eksempel 8 i kapittel 13 - Objekter
 ```html
 <table id="oppgaveTabell"></table>
 <p>
@@ -1905,7 +1904,7 @@ Eksempel 9 i kapittel 13 - Objekter
     <button onclick="leggTilOppgave()">Legg til oppgave</button>
 </p>
 ```
-Eksempel 10 i kapittel 13 - Objekter
+Eksempel 9 i kapittel 13 - Objekter
 ```js
 // controller
 var beskrivelseInput = document.getElementById('oppgaveBeskrivelse');
@@ -1920,28 +1919,28 @@ function leggTilOppgave() {
     vis();
 }
 ```
-Eksempel 11 i kapittel 13 - Objekter
+Eksempel 10 i kapittel 13 - Objekter
 ```js
 function endreErGjort(checkbox, indeks) {
     oppgaver[indeks].erGjort = checkbox.checked;
     vis();
 }
 ```
-Eksempel 12 i kapittel 13 - Objekter
+Eksempel 11 i kapittel 13 - Objekter
 ```js
 function slettOppgave(indeks) {
     oppgaver.splice(indeks, 1);
     vis();
 }
 ```
-Eksempel 13 i kapittel 13 - Objekter
+Eksempel 12 i kapittel 13 - Objekter
 ```js
 function redigerOppgave(indeks) {
     oppgaver[indeks].redigeringsModus = true;
     vis();
 }
 ```
-Eksempel 14 i kapittel 13 - Objekter
+Eksempel 13 i kapittel 13 - Objekter
 ```js
 function lagreOppgave(indeks) {
     const id = `redigerOppgave${indeks}`;
@@ -1952,7 +1951,7 @@ function lagreOppgave(indeks) {
     vis();
 }
 ```
-Eksempel 15 i kapittel 13 - Objekter
+Eksempel 14 i kapittel 13 - Objekter
 ```js
 // view
 var oppgaveTabell = document.getElementById('tasksTable');
@@ -1988,7 +1987,7 @@ function lagHtmlRad(i) {
     return `<tr>${kolonner}</tr>`;
 }
 ```
-Eksempel 16 i kapittel 13 - Objekter
+Eksempel 15 i kapittel 13 - Objekter
 ```css
     table, tr, td, th {
         border: 1px solid lightgray;
@@ -2006,7 +2005,7 @@ Eksempel 16 i kapittel 13 - Objekter
         background: antiquewhite;
     }
 ```
-Eksempel 17 i kapittel 13 - Objekter
+Eksempel 16 i kapittel 13 - Objekter
 ```html
 <head>
     <link rel="stylesheet" href="css/vinlotterix.css" />
@@ -2016,7 +2015,7 @@ Eksempel 17 i kapittel 13 - Objekter
     <script src="js/vinnere.js"></script>
 </head>
 ```
-Eksempel 18 i kapittel 13 - Objekter
+Eksempel 17 i kapittel 13 - Objekter
 ```html
 <div class="page" id="page">
     <div class="header" id="header">
@@ -2029,7 +2028,7 @@ Eksempel 18 i kapittel 13 - Objekter
     </div>
 </div>
 ```
-Eksempel 19 i kapittel 13 - Objekter
+Eksempel 18 i kapittel 13 - Objekter
 ```js
 visPersoner();
 
@@ -2037,7 +2036,7 @@ function visOgSkjulMeny() {
     document.getElementById('page').classList.toggle('pageUtenMeny');
 }
 ```
-Eksempel 20 i kapittel 13 - Objekter
+Eksempel 19 i kapittel 13 - Objekter
 ```js
 function visTrekninger() {
   let html = '';
@@ -2061,35 +2060,35 @@ function visTrekninger() {
   document.getElementById('innhold').innerHTML = html;
 }
 ```
-Eksempel 21 i kapittel 13 - Objekter
+Eksempel 20 i kapittel 13 - Objekter
 ```js
 liste.splice(3, 1);
 ```
-Eksempel 22 i kapittel 13 - Objekter
+Eksempel 21 i kapittel 13 - Objekter
 ```js
 tall.splice(7, 0, 
     {fornavn: 'Per', etternavn: 'Olsen'},
     {fornavn: 'Pål', etternavn: 'Nilsen'},
     {fornavn: 'Espen', etternavn: 'Hansen'});
 ```
-Eksempel 23 i kapittel 13 - Objekter
+Eksempel 22 i kapittel 13 - Objekter
 ```js
 let tall = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 tall.sort()
 ```
-Eksempel 24 i kapittel 13 - Objekter
+Eksempel 23 i kapittel 13 - Objekter
 ```js
 tall.sort((a, b) => a === b ? 0 : a < b ? -1 : 1);
 ```
-Eksempel 25 i kapittel 13 - Objekter
+Eksempel 24 i kapittel 13 - Objekter
 ```js
 tall.sort((a, b) => a - b);
 ```
-Eksempel 26 i kapittel 13 - Objekter
+Eksempel 25 i kapittel 13 - Objekter
 ```js
 tall.sort((a, b) => b - a);
 ```
-Eksempel 27 i kapittel 13 - Objekter
+Eksempel 26 i kapittel 13 - Objekter
 ```js
 let personer = [    
     {fornavn: 'Per', etternavn: 'Olsen', alder: 19},
@@ -2098,57 +2097,57 @@ let personer = [
 ];
 personer.sort((a, b) => a.alder - b.alder);
 ```
-Eksempel 28 i kapittel 13 - Objekter
+Eksempel 27 i kapittel 13 - Objekter
 ```js
 personer.sort(((a,b) => a.etternavn === b.etternavn ? 0 : 
                         a.etternavn < b.etternavn ? 1 : -1);
 ```
-Eksempel 29 i kapittel 13 - Objekter
+Eksempel 28 i kapittel 13 - Objekter
 ```js
 personer.sort(((a,b) => a.etternavn.localCompare(b.etternavn));
 ```
-Eksempel 30 i kapittel 13 - Objekter
+Eksempel 29 i kapittel 13 - Objekter
 ```js
 personer.sort((a, b) => {
   let step1 = a.etternavn.localeCompare(b.etternavn);
   return step1 != 0 ? step1 : a.fornavn.localeCompare(b.fornavn);
 });
 ```
-Eksempel 31 i kapittel 13 - Objekter
+Eksempel 30 i kapittel 13 - Objekter
 ```js
 personer.sort((a, b) => a.etternavn.localeCompare(b.etternavn) 
                      || a.fornavn.localeCompare(b.fornavn)});
 ```
-Eksempel 32 i kapittel 13 - Objekter
+Eksempel 31 i kapittel 13 - Objekter
 ```js
 let personerUnder18 = personer.filter(p => p.alder < 18);
 }
 ```
-Eksempel 33 i kapittel 13 - Objekter
+Eksempel 32 i kapittel 13 - Objekter
 ```js
 let hansens = personer.filter(p => p.etternavn === 'Hansen');
 }
 ```
-Eksempel 34 i kapittel 13 - Objekter
+Eksempel 33 i kapittel 13 - Objekter
 ```js
 let person = personer.filter(p => p.id === 1037)[0];
 }
 ```
-Eksempel 35 i kapittel 13 - Objekter
+Eksempel 34 i kapittel 13 - Objekter
 ```js
 let listeFulleNavn = personer.map(p => p.fornavn + ' ' + p.etternavn);
 }
 ```
-Eksempel 36 i kapittel 13 - Objekter
+Eksempel 35 i kapittel 13 - Objekter
 ```js
 let listeAldersverdier = personer.map(p => p.alder);
 }
 ```
-Eksempel 37 i kapittel 13 - Objekter
+Eksempel 36 i kapittel 13 - Objekter
 ```js
 let sumAvAlder = personer.reduce((sum, p) => p.alder + sum, 0);
 ```
-Eksempel 38 i kapittel 13 - Objekter
+Eksempel 37 i kapittel 13 - Objekter
 ```js
 personer.reduce((max, p) => Math.max(p.alder, max), 0);
 ```
