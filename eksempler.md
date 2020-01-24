@@ -3068,10 +3068,10 @@ Eksempel 5 i kapittel 17 - SPA-rammeverket Vue.js
                 dagsNavn: ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag']
             },
             methods: {
-                visOgSkjulMeny: function () {
+                visOgSkjulMeny() {
                     this.showMenu = !this.showMenu;
                 },
-                lagTekstListe: function (liste) {
+                lagTekstListe(liste) {
                     if (liste.length === 0) return '';
                     if (liste.length === 1) return liste[0];
                     const tekstListe = liste.join(', ');
@@ -3079,33 +3079,33 @@ Eksempel 5 i kapittel 17 - SPA-rammeverket Vue.js
                     return tekstListe.substr(0, indexSisteKomma)
                         + ' og ' + tekstListe.substr(indexSisteKomma + 1);
                 },
-                lagDatoTekstForVisning: function (dato) {
+                lagDatoTekstForVisning(dato) {
                     return dato.toLocaleString().replace(',', '').substr(0, 15);
                 },
-                lagDatoTekstForLagring: function (dato) {
+                lagDatoTekstForLagring(dato) {
                     return dato.toISOString().substr(0, 16).replace('T', ' ');
                 },
-                lagDatoTekstNåForLagring: function () {
+                lagDatoTekstNåForLagring() {
                     return this.lagDatoTekstForLagring(new Date());
                 },
-                velgAlleEllerIngen: function () {
+                velgAlleEllerIngen() {
                     let verdi = !this.personer.velgAlle;
                     for (let person of this.personer.liste) {
                         person.erValgt = verdi;
                     }
                 },
-                slettPerson: function (id) {
+                slettPerson(id) {
                     let index = this.personer.liste.findIndex((p => p.id === id));
                     if (index == -1) return;
                     this.personer.liste.splice(index, 1);
                 },
-                leggTilPerson: function () {
+                leggTilPerson() {
                     const id = 1 + this.personer.liste
                         .map(p => p.id).reduce((max, value) => Math.max(max, value), -1);
                     this.personer.liste
                         .push({ id: id, navn: this.personer.nyPerson, erValgt: true });
                 },
-                trekk: function () {
+                trekk() {
                     let antall = this.personer.trekkAntall;
                     const personerListe = this.personer.liste.filter(p => p.erValgt);
                     const indekser = Array.from(personerListe.keys());
@@ -3219,7 +3219,7 @@ Eksempel 11 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 Vue.component('person-liste', {
     props: ['personerProp'],
-    data: function () {
+    data() {
         return {
             nyPerson: '',
             velgAlle: false,
@@ -3227,23 +3227,23 @@ Vue.component('person-liste', {
             liste: []
         };
     },
-    created: function () {
+    created() {
         this.liste.push(...this.personerProp);
     },
     methods: {
-        velgAlleEllerIngen: function () {
+        velgAlleEllerIngen() {
             let verdi = !this.velgAlle;
             for (let person of this.liste) {
                 person.erValgt = verdi;
             }
         },
-        slettPerson: function (id) {
+        slettPerson(id) {
             let index = this.liste.findIndex((p => p.id === id));
             if (index == -1) return;
             this.liste.splice(index, 1);
             this.$emit('oppdatert-personliste', this.liste);
         },
-        leggTilPerson: function () {
+        leggTilPerson() {
             const id = this.liste
                 .map(p => p.id).reduce((max, value) => Math.max(max, value), -1) + 1;
             this.liste
@@ -3251,7 +3251,7 @@ Vue.component('person-liste', {
             this.nyPerson = '';
             this.$emit('oppdatert-personliste', this.liste);
         },
-        trekk: function () {
+        trekk() {
             this.$emit('trekk', this.trekkAntall);
         }
     },
@@ -3296,20 +3296,20 @@ Eksempel 12 i kapittel 17 - SPA-rammeverket Vue.js
 ```js
 Vue.component('trekning-liste', {
     props: ['trekningerProp'],
-    data: function () {
+    data() {
         return {
             trekninger: [],
             dagsNavn: ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag']
         }
     },
-    created: function () {
+    created() {
         this.trekninger.push(...this.trekningerProp);
     },
     methods: {
-        lagDatoTekstForVisning: function (dato) {
+        lagDatoTekstForVisning(dato) {
             return dato.toLocaleString().replace(',', '').substr(0, 15);
         },
-        lagTekstListe: function (liste) {
+        lagTekstListe(liste) {
             if (liste.length === 0) return '';
             if (liste.length === 1) return liste[0];
 
@@ -3392,16 +3392,16 @@ Eksempel 13 i kapittel 17 - SPA-rammeverket Vue.js
                 ]
             },
             methods: {
-                visOgSkjulMeny: function () {
+                visOgSkjulMeny() {
                     this.showMenu = !this.showMenu;
                 },
-                lagDatoTekstForLagring: function (dato) {
+                lagDatoTekstForLagring(dato) {
                     return dato.toISOString().substr(0, 16).replace('T', ' ');
                 },
-                lagDatoTekstNåForLagring: function () {
+                lagDatoTekstNåForLagring() {
                     return this.lagDatoTekstForLagring(new Date());
                 },
-                trekk: function (antall) {
+                trekk(antall) {
                     const personerListe = this.personer.filter(p => p.erValgt);
                     const indekser = Array.from(personerListe.keys());
                     const vinnere = [];
@@ -3417,7 +3417,7 @@ Eksempel 13 i kapittel 17 - SPA-rammeverket Vue.js
                     });
                     this.currentPage = 'trekninger';
                 },
-                oppdaterPersoner: function (personer) {
+                oppdaterPersoner(personer) {
                     this.personer.length = 0;
                     this.personer.push(...personer);
                 }
@@ -3662,7 +3662,7 @@ Eksempel 28 i kapittel 17 - SPA-rammeverket Vue.js
 <script>
 export default {
   name: "App",
-  data: function() {
+  data() {
     return {
       person: {
         name: "Terje",
@@ -3671,7 +3671,7 @@ export default {
     };
   },
   methods: {
-    handleDatachanged: function(personData) {
+    handleDatachanged(personData) {
       this.person.name = personData.name;
       this.person.birthYear = personData.birthYear;
     }
@@ -3713,7 +3713,7 @@ Eksempel 30 i kapittel 17 - SPA-rammeverket Vue.js
 export default {
   name: "CompA",
   props: ["personprop"],
-  data: function() {
+  data() {
     return {
       persondata: {
         name: null,
@@ -3721,12 +3721,12 @@ export default {
       }
     };
   },
-  created: function() {
+  created() {
     this.persondata.name = this.personprop.name;
     this.persondata.birthYear = this.personprop.birthYear;
   },
   methods: {
-    nav: function() {
+    nav() {
       this.$emit("datachanged", this.persondata);
       this.$router.push("/sideb");
     }
@@ -3775,19 +3775,19 @@ export default {
       ]
     };
   },
-  created: function() {
+  created() {
     for (let t of this.trekningerProp) {
       this.trekninger.push(t);
     }
   },
   methods: {
-    lagDatoTekstForVisning: function(dato) {
+    lagDatoTekstForVisning(dato) {
       return dato
         .toLocaleString()
         .replace(",", "")
         .substr(0, 15);
     },
-    lagTekstListe: function(liste) {
+    lagTekstListe(liste) {
       if (liste.length === 0) return "";
       if (liste.length === 1) return liste[0];
 
@@ -3860,25 +3860,25 @@ export default {
     };
   },
   props: ["personerProp"],
-  created: function() {
+  created() {
     for (let p of this.personerProp) {
       this.liste.push(p);
     }
   },
   methods: {
-    velgAlleEllerIngen: function() {
+    velgAlleEllerIngen() {
       let verdi = !this.velgAlle;
       for (let person of this.liste) {
         person.erValgt = verdi;
       }
     },
-    slettPerson: function(id) {
+    slettPerson(id) {
       let index = this.liste.findIndex(p => p.id === id);
       if (index == -1) return;
       this.liste.splice(index, 1);
       this.$emit("oppdatert-personliste", this.liste);
     },
-    leggTilPerson: function() {
+    leggTilPerson() {
       const id =
         this.liste
           .map(p => p.id)
@@ -3887,7 +3887,7 @@ export default {
       this.nyPerson = "";
       this.$emit("oppdatert-personliste", this.liste);
     },
-    trekk: function() {
+    trekk() {
       this.$emit("trekk", this.trekkAntall);
     }
   }
@@ -3960,9 +3960,9 @@ Eksempel 1 i kapittel Sende med data
 async function testPost() {
     let files = {
         files: {
-            "index.html": { "content": "<h1>Hallo</h1>", "isBinary": false },
-            "index.js": { "content": "console.log('hello!')", "isBinary": false },
-            "package.json": { "content": { "dependencies": {} } }
+            "index.html": { content: "<h1>Hallo</h1>", isBinary: false },
+            "index.js": { content: "console.log('hello!')", isBinary: false },
+            "package.json": { content: { dependencies: {} } }
         }
     }
 
@@ -4327,15 +4327,15 @@ export default {
 Eksempel 17 i kapittel 19 - Kodegenerering og metadata
 ```js
 let komponenter = {
-    overskrift: function (data) {},
-    skjemaVisning: function (data, metadata, index) {},
-    listeVisning: function (data, metadata) {},
-    meny: function (data, metadata) {},
+    overskrift(data) {},
+    skjemaVisning(data, metadata, index) {},
+    listeVisning(data, metadata) {},
+    meny(data, metadata) {},
 };
 ```
 Eksempel 18 i kapittel 19 - Kodegenerering og metadata
 ```js
-overskrift: function (data) {
+overskrift(data) {
     let p = data.tekst ? `<p>${data.tekst}</p>` : '';
     return `<div class="sideElement" style="grid-area: overskrift">
                 <h3>${data.overskrift}</h3>
@@ -4345,7 +4345,7 @@ overskrift: function (data) {
 ```
 Eksempel 19 i kapittel 19 - Kodegenerering og metadata
 ```js
-meny: function (data, metadata) {
+meny(data, metadata) {
     return `<div class="sideElement" style="grid-area: meny" class="meny">
                 <h3>Meny</h3>
                 <ul>
@@ -4379,7 +4379,7 @@ sider: {
 ```
 Eksempel 21 i kapittel 19 - Kodegenerering og metadata
 ```js
-skjemaVisning: function (data, metadata, index) {
+skjemaVisning(data, metadata, index) {
     if (index != null) {
         data = data[index];
     }
@@ -4395,7 +4395,7 @@ skjemaVisning: function (data, metadata, index) {
 ```
 Eksempel 22 i kapittel 19 - Kodegenerering og metadata
 ```js
-listeVisning: function (data, metadata) {
+listeVisning(data, metadata) {
     return `<div class="sideElement" style="grid-area: listeVisning">
                 <table>
                     <tr>
