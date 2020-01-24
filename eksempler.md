@@ -2116,32 +2116,27 @@ personer.sort((a, b) => {
 Eksempel 30 i kapittel 13 - Objekter
 ```js
 personer.sort((a, b) => a.etternavn.localeCompare(b.etternavn) 
-                     || a.fornavn.localeCompare(b.fornavn)});
+                     || a.fornavn.localeCompare(b.fornavn));
 ```
 Eksempel 31 i kapittel 13 - Objekter
 ```js
 let personerUnder18 = personer.filter(p => p.alder < 18);
-}
 ```
 Eksempel 32 i kapittel 13 - Objekter
 ```js
 let hansens = personer.filter(p => p.etternavn === 'Hansen');
-}
 ```
 Eksempel 33 i kapittel 13 - Objekter
 ```js
 let person = personer.filter(p => p.id === 1037)[0];
-}
 ```
 Eksempel 34 i kapittel 13 - Objekter
 ```js
 let listeFulleNavn = personer.map(p => p.fornavn + ' ' + p.etternavn);
-}
 ```
 Eksempel 35 i kapittel 13 - Objekter
 ```js
 let listeAldersverdier = personer.map(p => p.alder);
-}
 ```
 Eksempel 36 i kapittel 13 - Objekter
 ```js
@@ -2400,7 +2395,7 @@ async function finnVærvarsel() {
 }
 ```
 Eksempel 18 i kapittel 14 - Callbacks, promises og asynkrone kall
-```js
+```html
 <div id="txt"></div>
 <script>
     var txtDiv = document.getElementById('txt');
@@ -2789,7 +2784,7 @@ class Brikke {
 
     flyttTil(kolonne, rad) {
         if (this.type == 'Tårn' && this.kolonne != kolonne && this.rad != rad) return false;
-        else if (this.type == 'Løper') {
+        if (this.type == 'Løper') {
             var diffKolonne = this.kolonne - kolonne;
             var diffRad = this.rad - rad;
             if (Math.Abs(diffRad) != Math.Abs(diffKolonne)) return false;
@@ -3105,8 +3100,8 @@ Eksempel 5 i kapittel 17 - SPA-rammeverket Vue.js
                     this.personer.liste.splice(index, 1);
                 },
                 leggTilPerson: function () {
-                    const id = this.personer.liste
-                        .map(p => p.id).reduce((max, value) => Math.max(max, value), -1) + 1;
+                    const id = 1 + this.personer.liste
+                        .map(p => p.id).reduce((max, value) => Math.max(max, value), -1);
                     this.personer.liste
                         .push({ id: id, navn: this.personer.nyPerson, erValgt: true });
                 },
