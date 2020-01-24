@@ -4411,7 +4411,12 @@ listeVisning: function (data, metadata) {
             </div>`;
 }
 ```
+
 Eksempel 23 i kapittel 19 - Kodegenerering og metadata
+```js
+${ metadata.felt.map(f => `<td>${rad[f.navn]}</td>`).join('')}
+```
+Eksempel 24 i kapittel 19 - Kodegenerering og metadata
 ```js
 class ProduktkatalogApp {
     constructor() {
@@ -4438,7 +4443,7 @@ class ProduktkatalogApp {
 let app = new ProduktkatalogApp();
 app.visSide('forside');
 ```
-Eksempel 24 i kapittel 19 - Kodegenerering og metadata
+Eksempel 25 i kapittel 19 - Kodegenerering og metadata
 ```js
 [
     { navn: "Gullskje 22cm", pris: 990, kategori: "skje" },
@@ -4452,7 +4457,7 @@ Eksempel 24 i kapittel 19 - Kodegenerering og metadata
     { navn: "Stålgaffel 22cm", pris: 19, kategori: "gaffel" }
 ]
 ```
-Eksempel 25 i kapittel 19 - Kodegenerering og metadata
+Eksempel 26 i kapittel 19 - Kodegenerering og metadata
 ```js
 tekster: {
     forside: {
@@ -4485,7 +4490,7 @@ tekster: {
     }
 }
 ```
-Eksempel 26 i kapittel 19 - Kodegenerering og metadata
+Eksempel 27 i kapittel 19 - Kodegenerering og metadata
 ```js
 produkt: {
     felt: [
@@ -4512,7 +4517,7 @@ kontaktOss: {
     ]
 }
 ```
-Eksempel 27 i kapittel 19 - Kodegenerering og metadata
+Eksempel 28 i kapittel 19 - Kodegenerering og metadata
 ```js
 maler: {
     infoSide: {
@@ -4533,7 +4538,7 @@ maler: {
     }
 }
 ```
-Eksempel 28 i kapittel 19 - Kodegenerering og metadata
+Eksempel 29 i kapittel 19 - Kodegenerering og metadata
 ```js
 sider: {
     "forside": {
@@ -4567,7 +4572,7 @@ sider: {
     }
 }
 ```
-Eksempel 29 i kapittel 19 - Kodegenerering og metadata
+Eksempel 30 i kapittel 19 - Kodegenerering og metadata
 ```js
 visSide(sidenavn, parameter) {
     let metadataSide = this.metadata.sider[sidenavn];
@@ -4586,7 +4591,7 @@ visSide(sidenavn, parameter) {
             </div>`;
 }
 ```
-Eksempel 30 i kapittel 19 - Kodegenerering og metadata
+Eksempel 31 i kapittel 19 - Kodegenerering og metadata
 ```js
 renderKomponent(komponentNavn, metadataSide, parameter) {
     let komponentFunksjon = komponenter[komponentNavn];
