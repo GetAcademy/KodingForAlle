@@ -1,4 +1,4 @@
-Boken har egen Facebook-side her: [fb.me/koding.for.alle.i.javascript](fb.me/koding.for.alle.i.javascript)
+Boken har egen Facebook-side her: [fb.me/koding.for.alle.i.javascript](https://fb.me/koding.for.alle.i.javascript)
 Her kan du komme i kontakt med andre lesere - og forfatteren.
 
 
