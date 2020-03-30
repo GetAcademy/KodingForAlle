@@ -1,3 +1,7 @@
+Boken har egen Facebook-side her: fb.me/koding.for.alle.i.javascript 
+Her kan du komme i kontakt med andre lesere - og forfatteren.
+
+
 ## Forord
 ## Innhold
 ## 1 - HTML
